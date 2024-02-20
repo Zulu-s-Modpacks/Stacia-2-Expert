@@ -1,0 +1,5 @@
+// 1.19.2	2024-01-31T23:17:34.4554764	LootTables
+4d403aa93a88ee9d83ea9d873b999f129dae83a0 data/mm/loot_tables/blocks/starlight_controller_controller.json
+527ae1e21035fc1c90031e76e1cb7a33e6353cd6 data/mm/loot_tables/blocks/starlight_f_input_port.json
+17d99a91cff59d5fd55d048e0fe0031ec94d0730 data/mm/loot_tables/blocks/starlight_i_input_port.json
+e4bd9cfb6060f40d4d7203603826e91ea9f044a7 data/mm/loot_tables/blocks/starlight_i_output_port.json

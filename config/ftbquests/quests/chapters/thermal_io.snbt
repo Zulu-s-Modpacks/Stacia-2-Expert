@@ -1,0 +1,292 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "thermal_io"
+	group: "02FE910EDEFB2C10"
+	icon: "thermal:machine_frame"
+	id: "5A354DF39D9E822E"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "15BC1A3F21569D00"
+			size: 1.5d
+			tasks: [{
+				id: "7F49F7E141FDCB80"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0D323A8E71860881"
+			tasks: [{
+				id: "72BBB778A19CD30F"
+				item: "thermal:rf_coil"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0D323A8E71860881"]
+			id: "102AC323A68C9689"
+			tasks: [{
+				id: "179DCC7A9CC68A55"
+				item: {
+					Count: 1b
+					id: "thermal:energy_cell"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 1000000
+							EnergyRecv: 1000
+							EnergySend: 1000
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "65A33300DFCC044A"
+			tasks: [{
+				id: "3F8975767F50AD7A"
+				item: "thermal:redstone_servo"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["65A33300DFCC044A"]
+			id: "3465800DF16E16E8"
+			tasks: [{
+				id: "7E18E91D12C7B611"
+				item: {
+					Count: 1b
+					id: "thermal:fluid_cell"
+					tag: {
+						BlockEntityTag: {
+							TankInv: [{
+								Amount: 0
+								Capacity: 32000
+								FluidName: "minecraft:empty"
+								Tank: 0b
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["15BC1A3F21569D00"]
+			id: "2C218A5B55FF7B9C"
+			tasks: [{
+				id: "383D45367EBFA4E2"
+				item: "thermal:machine_pulverizer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["15BC1A3F21569D00"]
+			id: "313C622FF7B074A6"
+			tasks: [{
+				id: "5C0F960558203203"
+				item: "thermal:machine_furnace"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["15BC1A3F21569D00"]
+			id: "48C83598D5544DF9"
+			tasks: [{
+				id: "0BAD38CAB294D51C"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["15BC1A3F21569D00"]
+			id: "4E92F7D444F5966E"
+			tasks: [{
+				id: "4CA8C932CE08C429"
+				item: "thermal:machine_press"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["15BC1A3F21569D00"]
+			id: "07A5BCDC7557B048"
+			tasks: [{
+				id: "36483F55DC973B79"
+				item: "thermal:machine_crucible"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["15BC1A3F21569D00"]
+			id: "787372F348457489"
+			tasks: [{
+				id: "4D49FDE1654F54BE"
+				item: "thermal:machine_bottler"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			id: "1FBDFDD779B3F0C6"
+			shape: "diamond"
+			tasks: [{
+				id: "1D05E5665EF762DB"
+				item: "thermal:upgrade_augment_1"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "6CB7483A09FE3B62"
+			shape: "diamond"
+			tasks: [{
+				id: "77D62BAAE7296033"
+				item: "thermal:upgrade_augment_2"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			id: "26FA5F10035BD267"
+			shape: "diamond"
+			tasks: [{
+				id: "0839D86DC0D9A13D"
+				item: "thermal:upgrade_augment_3"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			id: "73AE10C5436713DA"
+			shape: "diamond"
+			tasks: [{
+				id: "28F616CF099762F4"
+				item: "thermal_extra:upgrade_augment"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			id: "1E67F5CB68143E9D"
+			shape: "diamond"
+			tasks: [{
+				id: "0D0D50F501EB3D71"
+				item: "thermalendergy:endergy_upgrade_1"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			id: "55A79D302A3EB8DB"
+			shape: "diamond"
+			tasks: [{
+				id: "49022FBA4D86420D"
+				item: "thermalendergy:endergy_upgrade_2"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			id: "173E774393A438EA"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "7AA3CD75E2FDB897"
+				item: "thermalendergy:endergy_upgrade_3"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			id: "129CCEDC135F8CF1"
+			tasks: [{
+				id: "7DAAAC257F13B09D"
+				item: "thermal:tinker_bench"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["129CCEDC135F8CF1"]
+			id: "40F993A753FEEEDA"
+			shape: "diamond"
+			tasks: [{
+				id: "05DBAAAA9FA435DF"
+				item: "thermal:rf_coil_storage_augment"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["129CCEDC135F8CF1"]
+			id: "634EA9E64C3FC748"
+			shape: "diamond"
+			tasks: [{
+				id: "10B903323483F655"
+				item: "thermal:machine_efficiency_augment"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["129CCEDC135F8CF1"]
+			id: "613500FB868F7F36"
+			shape: "diamond"
+			tasks: [{
+				id: "5AC8037428273E5E"
+				item: "thermal:dynamo_output_augment"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["129CCEDC135F8CF1"]
+			id: "01D4D4608E04DEC6"
+			shape: "diamond"
+			tasks: [{
+				id: "48C6F30C495CAFF3"
+				item: "thermal:machine_speed_augment"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+	]
+	title: "Thermal IO"
+}

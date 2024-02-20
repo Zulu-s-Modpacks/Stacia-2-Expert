@@ -1,0 +1,234 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "refined_energistics"
+	group: "02FE910EDEFB2C10"
+	icon: "ae2:controller"
+	id: "56F3ADD67BCA848E"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "refinedstorage:creative_controller"
+			id: "4457EA01C11628D8"
+			shape: "octagon"
+			size: 2.4d
+			tasks: [{
+				id: "494A05BA7FC85EFC"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6F9C7287DBEE654F"
+			tasks: [{
+				id: "3D04C636140AB0BA"
+				item: "refinedstorage:machine_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "28A471A4A71813CA"
+			tasks: [{
+				id: "2A693DF0111355B9"
+				item: "refinedstorage:quartz_enriched_iron"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "14B9DB2D3EEC0F84"
+			tasks: [{
+				id: "55071B8A0D6B6E6F"
+				item: "refinedstorage:grid"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "6A0EBFFF9346949D"
+			tasks: [{
+				id: "3C1390E7CDE581EC"
+				item: "refinedstorage:crafting_grid"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "7835B36DCFC2D56A"
+			tasks: [{
+				id: "78955A1218233310"
+				item: "refinedstorage:pattern_grid"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			id: "2E9F3ECA8BA8700C"
+			tasks: [{
+				id: "2215D43613C11951"
+				item: "refinedstorage:fluid_grid"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			id: "14BE93FA66B57937"
+			tasks: [{
+				id: "286E53ECF0B20579"
+				item: "refinedstorage:crafter_manager"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "5B4BB31497E07A0B"
+			tasks: [{
+				id: "19FF4D5D72363BE6"
+				item: "rsrequestify:requester"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "2C9310F07CD3D534"
+			shape: "diamond"
+			tasks: [{
+				id: "59512AE760D3A367"
+				item: "refinedstorage:crafter"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "4131560BD139DF36"
+			shape: "diamond"
+			tasks: [{
+				id: "608717459A953FD3"
+				item: "extrastorage:iron_crafter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			id: "3180AB643152A039"
+			shape: "diamond"
+			tasks: [{
+				id: "46AC3919B0D2DBD9"
+				item: "extrastorage:gold_crafter"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			id: "309A99E00DC81DF5"
+			shape: "diamond"
+			tasks: [{
+				id: "44BEB936EADE6C8F"
+				item: "extrastorage:diamond_crafter"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			id: "22B8394169AE8317"
+			shape: "diamond"
+			tasks: [{
+				id: "274DFB53343D7E3D"
+				item: "extrastorage:netherite_crafter"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			id: "22D3AD30A25B0075"
+			tasks: [{
+				id: "6DE9CE09122B1702"
+				item: "refinedstorage:disk_manipulator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "2072963F74155C4A"
+			tasks: [{
+				id: "4271F39B35BEB9DF"
+				item: "refinedstorage:detector"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "2CD58300ABA8F9F3"
+			shape: "diamond"
+			tasks: [{
+				id: "39948E23C9DC1B87"
+				item: "refinedstorage:importer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "411FA6EB4BDF7DDD"
+			shape: "diamond"
+			tasks: [{
+				id: "392A505126F50C88"
+				item: "refinedstorage:exporter"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			id: "44525BDDB3D1A33C"
+			shape: "diamond"
+			tasks: [{
+				id: "390380FCDA6F9572"
+				item: "refinedstorage:external_storage"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "344D5628FDA6B3B8"
+			tasks: [{
+				id: "5DFF90839B2F2E27"
+				item: "refinedstorage:cable"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "5E09CAD1096F8AC7"
+			tasks: [{
+				id: "77E07244F47168D2"
+				item: "refinedstorage:wireless_transmitter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+	]
+	title: "Nintendo Switch"
+}

@@ -1,0 +1,292 @@
+{
+  "profession": "minecraft:librarian",
+  "removeOtherTrades": false,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:paper",
+        "amount": 24,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{StoredEnchantments:[{id:\"minecraft:smite\",lvl:5s}]}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 27,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:book",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:bookshelf",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 9,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:book",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{StoredEnchantments:[{id:\"projectexpansion:alchemical_collection\",lvl:1s}]}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 11,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:book",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:lantern",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:ink_sac",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{StoredEnchantments:[{id:\"apotheosis:bane_of_illagers\",lvl:4s}]}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:book",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:glass",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:writable_book",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{StoredEnchantments:[{id:\"apotheosis:growth_serum\",lvl:1s}]}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:book",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:clock",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:compass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:name_tag",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 20,
+        "priceModifier": 0
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5
+    },
+    {
+      "offer": {
+        "itemKey": "quark:ancient_tome",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{StoredEnchantments:[{id:\"minecraft:loyalty\",lvl:9s}]}"
+      },
+      "request": {
+        "itemKey": "quark:ancient_tome",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:enchanted_book",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{StoredEnchantments:[{id:\"minecraft:loyalty\",lvl:3s}]}"
+      },
+      "tradeExp": 3,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5
+    }
+  ]
+}

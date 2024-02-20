@@ -1,0 +1,9 @@
+// 1.19.2	2024-01-31T23:17:34.4566507	Block States: mm
+b8c684b9434048b900c92d35809dc1781ff830bf assets/mm/blockstates/starlight_controller_controller.json
+1204c48aea4f8e4fd1d80d0bffc8836f63bfd2ad assets/mm/blockstates/starlight_f_input_port.json
+4a988d37edde2b9ecc15a22dd101365938efe530 assets/mm/blockstates/starlight_i_input_port.json
+8507f024c577d6f923e5ae310d51bb61d1806f33 assets/mm/blockstates/starlight_i_output_port.json
+d5e35ae3c73bdf10094ffcee81a140592d1ba010 assets/mm/models/block/starlight_controller_controller.json
+1ec14f596a613d7cca13d3918203cd16fe444285 assets/mm/models/block/starlight_f_input_port.json
+89bf632413bd48bdfff73076668a2a043c3630d9 assets/mm/models/block/starlight_i_input_port.json
+7b282776875272444930882cdf4383a2d81ad54c assets/mm/models/block/starlight_i_output_port.json

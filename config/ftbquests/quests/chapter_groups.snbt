@@ -1,0 +1,10 @@
+{
+	chapter_groups: [
+		{ id: "2B2DBA5ACD7ED6E4", title: "Welcome!" }
+		{ id: "18514C863AB592D3", title: "Beginning" }
+		{ id: "02FE910EDEFB2C10", title: "Tech and Magic" }
+		{ id: "264B385B6E89D41B", title: "Quality Of Life" }
+		{ id: "27F92AE27DB2D1DE", title: "Exploring!" }
+		{ id: "24A49DC675E4A8C0", title: "Grande Finale" }
+	]
+}

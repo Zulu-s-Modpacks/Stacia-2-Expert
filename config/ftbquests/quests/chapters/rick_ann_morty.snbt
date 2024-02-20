@@ -1,0 +1,411 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "rick_ann_morty"
+	group: "27F92AE27DB2D1DE"
+	icon: {
+		Count: 1b
+		id: "gateways:gate_pearl"
+		tag: {
+			gateway: "gateways:enderman_gate"
+		}
+	}
+	id: "008341F23A01CC06"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "kubejs:textures/item/portal.png"
+			rotation: 0.0d
+			width: 2.7d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mysticalagriculture:item/essence/blaze_essence"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mysticalagriculture:item/essence/enderman_essence"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/shulker_shell"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mysticalagriculture:item/essence/creeper_essence"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mysticalagriculture:item/essence/ghast_essence"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/magma_cream"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 2.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "29104C37E7B97154"
+			tasks: [{
+				id: "499BB1610C0659FE"
+				item: {
+					Count: 1b
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:blaze_gate_small"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "6A0A22E9310D6FA5"
+			tasks: [{
+				id: "3C40ACCD0B577B47"
+				item: {
+					Count: 1b
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:blaze_gate_large"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			id: "5F8071883BC2E155"
+			tasks: [{
+				id: "5B1870570C88E659"
+				item: {
+					Count: 1b
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:blaze_gate"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			id: "37A791C4A2373293"
+			tasks: [{
+				id: "34DB4C20C63185C0"
+				item: {
+					Count: 1b
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:creeper_gate_small"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			id: "41CD6C93A224C572"
+			tasks: [{
+				id: "3F39DF7A05F8C4AC"
+				item: {
+					Count: 1b
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:creeper_gate"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			id: "08452A833C2D96B8"
+			tasks: [{
+				id: "3058AE562409A4D3"
+				item: {
+					Count: 1b
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:creeper_gate_large"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			id: "79A7790FD905399B"
+			tasks: [{
+				id: "659DCF85828C7E60"
+				item: {
+					Count: 1b
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:enderman_gate_small"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "500DC10FA05CA58C"
+			tasks: [{
+				id: "0F0D76D3480C9B3E"
+				item: {
+					Count: 1b
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:enderman_gate"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			id: "64AA76F8E02A25C1"
+			tasks: [{
+				id: "49A18FA0693159A9"
+				item: {
+					Count: 1b
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:enderman_gate_large"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			id: "4F8657E2A9CBB430"
+			tasks: [{
+				id: "1FD79AF0EC5B8F7E"
+				item: {
+					Count: 1b
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:ghast_gate_small"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "30FA323FA47F39E7"
+			tasks: [{
+				id: "689E6228252CEC22"
+				item: {
+					Count: 1b
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:ghast_gate"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			id: "0A6478E12A407135"
+			tasks: [{
+				id: "0D82FE166FA08410"
+				item: {
+					Count: 1b
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:ghast_gate_large"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			id: "2D5EB241AE4FCFD1"
+			tasks: [{
+				id: "25C3534D17FE7209"
+				item: {
+					Count: 1b
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:magma_cube_gate_small"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			id: "3517B50A79A205AD"
+			tasks: [{
+				id: "70B3781C0EB5F04E"
+				item: {
+					Count: 1b
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:magma_cube_gate"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "76D30B93D957A285"
+			tasks: [{
+				id: "643AE43BEDD317D6"
+				item: {
+					Count: 1b
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:magma_cube_gate_large"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			id: "1D56466D409B4E8D"
+			tasks: [{
+				id: "0DFB0C5C11E480BE"
+				item: {
+					Count: 1b
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:shulker_gate_small"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "0B9DDB5C4F38D0F2"
+			tasks: [{
+				id: "75B49C438F75E651"
+				item: {
+					Count: 1b
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:shulker_gate"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			id: "7BB3012CDBBB0F35"
+			tasks: [{
+				id: "3A5E5B8B14728A0F"
+				item: {
+					Count: 1b
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:shulker_gate_large"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+	]
+	title: "Rick and Morty"
+}

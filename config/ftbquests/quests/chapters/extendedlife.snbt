@@ -1,0 +1,143 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "extendedlife"
+	group: "24A49DC675E4A8C0"
+	icon: "extendedcrafting:advanced_table"
+	id: "5DE4AAF4CCCFA55B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3741FCF86B8B764C"]
+			id: "4AF7E82A57934B63"
+			tasks: [{
+				id: "658CDF0DBA0C5A49"
+				item: "extendedcrafting:advanced_auto_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3741FCF86B8B764C"]
+			id: "0D8E83D38CF53515"
+			tasks: [{
+				id: "2CD08E5B451E1FAD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:watch_of_flowing_time"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0C2290FC8854DDAC"
+				"737118370F9878A3"
+			]
+			id: "3741FCF86B8B764C"
+			tasks: [{
+				id: "42772A748028827B"
+				item: "extendedcrafting:advanced_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "79739FF6903E7F58"
+			tasks: [{
+				id: "38C0F7E68DA643ED"
+				item: "extendedcrafting:elite_table"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79739FF6903E7F58"]
+			id: "5FCC8FC9D8923005"
+			tasks: [{
+				id: "59B072F48FFB25A6"
+				item: "extendedcrafting:crystaltine_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["79739FF6903E7F58"]
+			id: "58B18A5C38C51269"
+			tasks: [{
+				id: "757492711486C598"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:philosophers_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79739FF6903E7F58"]
+			id: "798FCF917E767EFC"
+			tasks: [{
+				id: "498ECA33C4E00AC7"
+				item: "extendedcrafting:elite_auto_table"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"You are currently using the &cBETA&r version."
+				"The &cquest book is not complete&r yet, and there are some missing and partially finished quest pages."
+				"The deficiencies in the quest book will be addressed in an upcoming update. Be sure to install updates regularly."
+			]
+			id: "71BD4FF0A1081823"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "2B928A201CCEB354"
+				title: "YOU ARE ON BETA"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			id: "737118370F9878A3"
+			tasks: [{
+				id: "6885660DBAD657E9"
+				item: "extendedcrafting:compressor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			id: "0C2290FC8854DDAC"
+			tasks: [{
+				id: "7370A98401E5B0F7"
+				item: "extendedcrafting:black_iron_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+	title: "Chaos Crafting"
+}

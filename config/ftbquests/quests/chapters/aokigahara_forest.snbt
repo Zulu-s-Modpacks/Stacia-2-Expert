@@ -1,0 +1,74 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aokigahara_forest"
+	group: "27F92AE27DB2D1DE"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "20814117568AF48A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "25858832D0143398"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "0AE960657529BD99"
+				type: "dimension"
+			}]
+			title: "Twilight Forest"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3D882599CF9DD6E7"
+			tasks: [{
+				id: "1E4DF9BC783773E7"
+				item: "twilightforest:raven_feather"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "38C0C2CED0D778BF"
+			tasks: [{
+				id: "439CE58E9158C772"
+				item: "twilightforest:magic_map_focus"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			id: "675B2D9772094C85"
+			tasks: [{
+				id: "72A29BF45206EEC8"
+				item: "twilightforest:magic_map"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"You are currently using the &cBETA&r version."
+				"The &cquest book is not complete&r yet, and there are some missing and partially finished quest pages."
+				"The deficiencies in the quest book will be addressed in an upcoming update. Be sure to install updates regularly."
+			]
+			id: "0022007B3872AF44"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "525641CEDE4C8592"
+				title: "YOU ARE ON BETA"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+	]
+	title: "Aokigahara Forest"
+}

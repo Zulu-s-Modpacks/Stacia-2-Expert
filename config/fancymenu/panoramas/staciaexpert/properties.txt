@@ -1,0 +1,8 @@
+type = panorama
+
+panorama-meta {
+  name = staciaexpert
+  speed = 1.5
+  fov = 90.0
+  angle = 25.0
+}

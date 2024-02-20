@@ -1,0 +1,239 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "boopboop"
+	group: "02FE910EDEFB2C10"
+	icon: "mekanism:steel_casing"
+	id: "5EA24A0E30872F52"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1D4A1729E538F1D1"
+			size: 1.2d
+			tasks: [{
+				id: "7D6182263BBC840E"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.6d
+		}
+		{
+			dependencies: [
+				"1D4A1729E538F1D1"
+				"488C751179F32136"
+			]
+			id: "6563AA28B3EB50D1"
+			tasks: [{
+				id: "05B2EA1A26A0DF02"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["47214E575869A439"]
+			id: "7446391846705528"
+			tasks: [{
+				id: "422BF2065E74AE2A"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			id: "77937ADC355DF57A"
+			tasks: [{
+				id: "60BFE8E3B5163579"
+				item: "mekanism:enriched_redstone"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6563AA28B3EB50D1"
+				"7C9EE96C5A97117D"
+				"77937ADC355DF57A"
+				"27D62744E602C5B8"
+			]
+			id: "3F90736CD88EAA27"
+			tasks: [{
+				id: "44CC8DE106A6B6F8"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3F90736CD88EAA27"]
+			id: "47214E575869A439"
+			shape: "hexagon"
+			tasks: [{
+				id: "62CD52EFF85D5F15"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"1D4A1729E538F1D1"
+				"57737EBE6589FD7C"
+			]
+			id: "7C9EE96C5A97117D"
+			tasks: [{
+				id: "7E82D5C4B4942AAE"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			icon: "mekanism:upgrade_speed"
+			id: "05316281817DE2CD"
+			shape: "gear"
+			size: 1.4d
+			tasks: [
+				{
+					id: "6F6F07FD7483A10A"
+					item: "mekanism:upgrade_speed"
+					type: "item"
+				}
+				{
+					id: "25037EEACF04E45C"
+					item: "mekanism:upgrade_energy"
+					type: "item"
+				}
+			]
+			x: 8.4d
+			y: 0.7d
+		}
+		{
+			id: "488C751179F32136"
+			tasks: [{
+				id: "0ED639C5A27FFF8D"
+				item: "kubejs:soulsteel_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			id: "57737EBE6589FD7C"
+			tasks: [{
+				id: "096115E12C55C99A"
+				item: "kubejs:hepatizon_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			icon: "cyclic:honey_bucket"
+			id: "27D62744E602C5B8"
+			tasks: [{
+				id: "5556BA4A4C010593"
+				item: "create:honey_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["47214E575869A439"]
+			id: "33779FFE95D473E0"
+			tasks: [{
+				id: "3B72E92E41885F2F"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["47214E575869A439"]
+			id: "0F1BCED2D2777307"
+			tasks: [{
+				id: "4C32512988C6C7F2"
+				item: "mekanism:osmium_compressor"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["47214E575869A439"]
+			id: "77ABB3D8E17406E7"
+			tasks: [{
+				id: "462ED3180B0FAAF2"
+				item: "mekanism:energized_smelter"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			id: "00E0D055C570340A"
+			shape: "diamond"
+			tasks: [{
+				id: "15624AB21FCA2A68"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			id: "5BCDD853FC335768"
+			shape: "diamond"
+			tasks: [{
+				id: "282CF619F587B0C7"
+				item: "mekanism:advanced_tier_installer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			id: "6C1366D827E1F43C"
+			shape: "diamond"
+			tasks: [{
+				id: "54908E22EA84150B"
+				item: "mekanism:elite_tier_installer"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			id: "066375824F7EBF7D"
+			shape: "diamond"
+			tasks: [{
+				id: "504E899F147FF61E"
+				item: "mekanism:ultimate_tier_installer"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			id: "653C5E6A86EB5531"
+			tasks: [{
+				id: "2ABD0C512D251C3C"
+				item: "mekanism:robit"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+	]
+	title: "Metallic Chronicles"
+}

@@ -1,0 +1,295 @@
+{
+  "profession": "blue_skies:alchemist",
+  "removeOtherTrades": false,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:slime_ball",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:magma_cream",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:gold_ingot",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 5,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:blaze_rod",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:crystal_sandstone",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "blue_skies:midnight_sandstone",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:midnight_sandstone",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "blue_skies:crystal_sandstone",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:crescent_fruit_sapling",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "blue_skies:lunar_sapling",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "blue_skies:crescent_fruit",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:lunar_mud",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "blue_skies:lunar_dirt",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "blue_skies:ventium_water_bucket",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:saddle",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "blue_skies:camel_saddle",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "blue_skies:horizonite_ingot",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "blue_skies:ventium_water_bucket",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 15,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:ventium_bucket",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:bucket",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 3,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:crystallized_planks",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "blue_skies:lunar_planks",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "blue_skies:moonstone_crystal",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 17,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:crystallized_grass",
+        "amount": 12,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "blue_skies:lunar_grass",
+        "amount": 12,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "blue_skies:moonstone_shard",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:ventium_lava_bucket",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "blue_skies:ventium_water_bucket",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "blue_skies:alchemy_scroll",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "tradeExp": 25,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5
+    }
+  ]
+}

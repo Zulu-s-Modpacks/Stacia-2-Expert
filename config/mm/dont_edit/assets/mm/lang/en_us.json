@@ -1,0 +1,9 @@
+{
+  "block.mm.starlight_controller_controller": "Starlight Infuser Controller",
+  "block.mm.starlight_f_input_port": "Starlight Infuser Fluid Input Port",
+  "block.mm.starlight_i_input_port": "Starlight Infuser Item Input Port",
+  "block.mm.starlight_i_output_port": "Starlight Infuser Item Output Port",
+  "container.masterfulmachinery.mm:starlight_controller_controller_controller.name": "Starlight Infuser Controller",
+  "item.mm.blueprint": "Blueprint",
+  "item.mm.structure_wand": "Structure Wand"
+}

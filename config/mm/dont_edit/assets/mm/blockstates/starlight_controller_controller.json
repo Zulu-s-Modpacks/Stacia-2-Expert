@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "mm:block/starlight_controller_controller",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "mm:block/starlight_controller_controller"
+    },
+    "facing=south": {
+      "model": "mm:block/starlight_controller_controller",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mm:block/starlight_controller_controller",
+      "y": 270
+    }
+  }
+}

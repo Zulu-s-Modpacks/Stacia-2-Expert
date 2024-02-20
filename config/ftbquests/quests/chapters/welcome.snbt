@@ -1,0 +1,491 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: "18514C863AB592D3"
+	icon: {
+		Count: 1b
+		id: "redstone_arsenal:flux_wrench"
+		tag: { }
+	}
+	id: "5F5F943CAC6AE7AE"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "minecraft:block/oak_sapling"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ars_nouveau:textures/items/summon_focus.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.0d
+			y: 0.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Hello Everyone!"
+				""
+				"We welcome you to new modpack, &aStacia 2: Expert&r! This modpack will completely change your gaming experience and provide you with a more challenging and exciting world."
+				""
+				"Our first task is designed to welcome you to this new world and start your adventure. Explore the world and gather resources to create new technologies and machines that will help you thrive in this challenging environment."
+				""
+				"Get ready to push your skills to the limit and discover new ways to play!"
+			]
+			icon: "minecraft:oak_log"
+			id: "7227D94BD940B007"
+			rewards: [{
+				id: "37ABE0EFCC670545"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&aWelcome!"
+			tasks: [{
+				id: "4B28E422262C9C36"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "It's Your First Shot!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7227D94BD940B007"]
+			description: [
+				"Classic Old Crafting Table. What could go wrong?"
+				""
+				"{image:minecraft:block/crafting_table_top width:50 height:50 align:1}"
+			]
+			id: "5C1CB0C836502ABB"
+			rewards: [{
+				id: "4B2ACE0896F22CD8"
+				item: "crafting_on_a_stick:crafting_table"
+				type: "item"
+			}]
+			subtitle: "Crafting Center"
+			tasks: [{
+				id: "46A79E09B86E4B5F"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C1CB0C836502ABB"]
+			description: [
+				"&aSilent Gear's tools&f include pickaxes, shovels, axes, hoes, swords, and other equipment&f. Each tool has its own unique properties, such as durability, mining speed, and damage, which can be improved by adding modifiers."
+				""
+				"One of the key features of Silent Gear's tools is their modularity. Players can combine different parts and components to create their own custom tools with unique abilities and stats. For example, you can add a \"Silk Touch\" modifier to a pickaxe to allow it to mine certain blocks without destroying them, or add a \"Looting\" modifier to a sword to increase the chances of getting rare drops from mobs."
+				""
+			]
+			id: "4C498DCB44225078"
+			subtitle: "Stylish Combat Tools"
+			tasks: [{
+				id: "54FC59CA380F375C"
+				item: "silentgear:pickaxe_template"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4C498DCB44225078"]
+			description: [
+				"&aStone Mechanisms:&r Keep in mind, this is an expert modpack! Plenty of recipes have been changed, and made harder."
+				"Which you'll find all about soon.."
+			]
+			icon: "kubejs:stone_mechanism"
+			id: "1FD3FD5D06E94E1E"
+			subtitle: "Neanderthal's first component"
+			tasks: [
+				{
+					id: "01E908DC84CAFDAD"
+					item: "kubejs:stone_nugget"
+					type: "item"
+				}
+				{
+					id: "25727804AE5E7616"
+					item: "kubejs:stone_mechanism"
+					type: "item"
+				}
+			]
+			title: "Stone Mechanism"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1FD3FD5D06E94E1E"]
+			id: "0C6ED0C9C20182A7"
+			shape: "hexagon"
+			tasks: [{
+				id: "49B066DBF781D568"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0C6ED0C9C20182A7"]
+			id: "33C4C718B0F6183A"
+			rewards: [{
+				id: "38A1A970D795935E"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6AF0564393DAFD45"
+				item: {
+					Count: 1b
+					id: "silentgear:crude_repair_kit"
+					tag: {
+						Storage: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0C6ED0C9C20182A7"]
+			id: "24D0D42A1DDC7172"
+			rewards: [
+				{
+					id: "303588F8FC8B7C08"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "33498D6AE4B8593D"
+					item: {
+						Count: 1b
+						id: "create_confectionery:full_white_chocolate_bar"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "32841A47A2485C32"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0C6ED0C9C20182A7"]
+			id: "342083546FFB534E"
+			rewards: [{
+				id: "1E5E051411293AAD"
+				item: "bhc:red_heart_canister"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "729F5BFAABDF74D5"
+				item: "bhc:heart_amulet"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0C6ED0C9C20182A7"]
+			id: "4A0573513D707B9A"
+			tasks: [{
+				id: "59315536EBF57938"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4A0573513D707B9A"]
+			id: "1B2D930EBB3F2A94"
+			tasks: [{
+				id: "7AD687FB122F3C40"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4A0573513D707B9A"]
+			id: "593AFCB9C597115E"
+			tasks: [
+				{
+					id: "5815DE85FBD7F5DC"
+					item: "create:hand_crank"
+					type: "item"
+				}
+				{
+					id: "3DC6ECE4D8027544"
+					item: "create:cogwheel"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"1B2D930EBB3F2A94"
+				"593AFCB9C597115E"
+				"4B3FD7D0B88EC3EC"
+			]
+			id: "6430C8C86DF9471C"
+			rewards: [{
+				count: 8
+				id: "563337597DB6AEA6"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.2d
+			tasks: [{
+				id: "282F9A87C9FB198A"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			x: 9.6d
+			y: 3.5999999999999996d
+		}
+		{
+			dependencies: ["4A0573513D707B9A"]
+			description: [
+				"&aRaw Arcane:&r Find some &6arcane ore&r underground."
+				""
+				"&aMaxY =&r 96"
+				"&aMost Likely&r = 32"
+				"&aMinY =&r -32"
+			]
+			hide_dependency_lines: true
+			icon: "kubejs:arcane_ore"
+			id: "4B3FD7D0B88EC3EC"
+			rewards: [{
+				id: "7B85B71AF7640C3E"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Find Some Arcane Ore"
+			tasks: [{
+				id: "7CDE6CAE7DB0753C"
+				item: "kubejs:raw_arcane"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"0CEC668B34B4B80D"
+				"6430C8C86DF9471C"
+			]
+			id: "1E73A2A27BFD3B89"
+			tasks: [{
+				id: "16E4D92EB3810269"
+				item: "ars_nouveau:sourcestone"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6A3744132E81B8B1"]
+			description: [
+				"&aBotania is a tech mod&f: This time, unlike what you're used to, you have to craft the pure daisy by throwing it into the &6water in the real world&r, not in the petal apotheracy thing."
+				""
+				"&aAlso&f: This quest unlocks the Botania chapter."
+			]
+			id: "0CEC668B34B4B80D"
+			rewards: [
+				{
+					id: "6495108388B18D0A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "176C3D4C3EFCF378"
+					item: "botania:flower_bag"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 0.8d
+			subtitle: "Pure Enchanted Blossoms"
+			tasks: [{
+				id: "27E7BB9C9686B2BC"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2D0D60B6D73528FE"]
+			id: "1DBE71926E682A2E"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "534DF1194DD5B74B"
+				item: "ftbic:machine_block"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E73A2A27BFD3B89"]
+			id: "1C71DD2B96CD3ACE"
+			tasks: [{
+				id: "109DDC39120AF843"
+				item: "ars_nouveau:enchanting_apparatus"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1E73A2A27BFD3B89"]
+			id: "165C7294DC3D40E2"
+			tasks: [{
+				id: "31D90D904D65360E"
+				item: "ars_nouveau:arcane_pedestal"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1E73A2A27BFD3B89"]
+			id: "41A5A3AF68A139E1"
+			tasks: [{
+				id: "436F82CBFDC3C8D2"
+				item: "ars_nouveau:arcane_core"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"41A5A3AF68A139E1"
+				"165C7294DC3D40E2"
+				"1C71DD2B96CD3ACE"
+			]
+			description: ["&aFirst Circuits&r: You Can Use The &6Enchanting Apparatus&r To Craft Your First Electronic Circuits!"]
+			icon: "ftbic:electronic_circuit"
+			id: "2D0D60B6D73528FE"
+			rewards: [{
+				id: "17C0DF9F21AC3998"
+				type: "xp"
+				xp: 300
+			}]
+			subtitle: "Beep Boop"
+			tasks: [{
+				id: "630498521801CAC0"
+				item: "ftbic:electronic_circuit"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.5d
+		}
+		{
+			icon: "botania:white_mystical_flower"
+			id: "6A3744132E81B8B1"
+			rewards: [{
+				count: 16
+				id: "60FE1E2CB636BC3A"
+				item: "botania:fertilizer"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "484026C0C80F7222"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:petals"
+					}
+				}
+				title: "Any #botania:petals"
+				type: "item"
+			}]
+			title: "Collect any Petals!"
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"You are currently using the &cBETA&r version."
+				"The &cquest book is not complete&r yet, and there are some missing and partially finished quest pages."
+				"The deficiencies in the quest book will be addressed in an upcoming update. Be sure to install updates regularly."
+			]
+			id: "1FD1A2855411987C"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "READ ME"
+			tasks: [{
+				id: "7319F345BA36780E"
+				title: "You'on beta!"
+				type: "checkmark"
+			}]
+			title: "You are on BETA!"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"You can contribute to faster development of the beta version by reporting any bugs you find to me on &9Discord&r."
+				"Since I can't share the link here, it's on the &acurseforge page&r."
+			]
+			id: "0118C3B6575E07CF"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "3839D7C49686D408"
+				title: "Discord"
+				type: "checkmark"
+			}]
+			x: 2.25d
+			y: -2.25d
+		}
+	]
+	title: "Celeste Mountain"
+}

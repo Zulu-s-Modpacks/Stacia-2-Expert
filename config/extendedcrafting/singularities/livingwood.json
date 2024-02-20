@@ -1,0 +1,11 @@
+{
+    "name": "Livingwood",
+    "colors": [
+      "800020",
+      "800020"
+    ],
+    "ingredient": {
+      "item": "botania:livingwood_log"
+    },
+    "inUltimateSingularity": true
+  }

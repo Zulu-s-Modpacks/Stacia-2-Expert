@@ -1,0 +1,7 @@
+#.
+#Enable chest feature
+chestFeature = true
+#.
+#Enable chest feature armor
+chestArmor = true
+

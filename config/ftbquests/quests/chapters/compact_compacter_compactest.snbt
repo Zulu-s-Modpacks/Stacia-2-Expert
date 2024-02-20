@@ -1,0 +1,370 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "compact_compacter_compactest"
+	group: "02FE910EDEFB2C10"
+	icon: "create:mechanical_crafter"
+	id: "2A5924B762AC1523"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "create_sa:textures/items/hydraulic_engine.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "create:textures/item/brass_hand.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "create:item/crushed_raw_aluminum"
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.0d
+			y: -4.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3D8FC3822A86282B"
+			size: 2.0d
+			tasks: [{
+				id: "5786DCD28215F5B7"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "173040F3179BA5C7"
+			tasks: [{
+				id: "65C5F717ABD0BD79"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			id: "6FD797E504A8E68B"
+			tasks: [{
+				id: "0DF0F0A61CD11BA8"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			icon: "create:belt_connector"
+			id: "06A270C79F7B828A"
+			tasks: [
+				{
+					count: 2L
+					id: "24800CFE8AA2A357"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0AECB59397CB4C4D"
+					item: "create:belt_connector"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			id: "0C26861898DAAB49"
+			tasks: [{
+				count: 8L
+				id: "1133E029AEB79AD5"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			id: "00B58FE9537F5368"
+			tasks: [{
+				id: "569948EDEE288561"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "327262E89B4BFE42"
+			tasks: [{
+				id: "1F3D755355612797"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			id: "7CB77BC6BDEF7334"
+			size: 2.0d
+			tasks: [{
+				id: "3FA8383800393AF2"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "1FC5C06C72C570D0"
+			tasks: [{
+				id: "78DFF935349361EE"
+				item: "create:chute"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			id: "489C094BCEC85A9F"
+			tasks: [{
+				id: "5CE2B026C99CCA70"
+				item: "create:smart_chute"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			id: "25DE0E6EB54E8FC3"
+			shape: "hexagon"
+			tasks: [{
+				id: "707BFB528908F31B"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			id: "2C501C66634C66C1"
+			shape: "octagon"
+			size: 1.3d
+			tasks: [{
+				id: "66E3F3D0C8B3F1E2"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 13.000000000000002d
+			y: 3.2500000000000004d
+		}
+		{
+			id: "49606C7CF6C62516"
+			size: 2.0d
+			tasks: [{
+				id: "054C6426C40A0FDD"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			id: "1F4995BCAE7278C5"
+			shape: "diamond"
+			tasks: [{
+				id: "46B84533532CCE60"
+				item: "create:crushed_raw_iron"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			id: "7CD7E527A95380E0"
+			shape: "diamond"
+			tasks: [{
+				id: "27D3A54DFCBAA949"
+				item: "create:crushed_raw_gold"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			id: "663451CA68CA14A5"
+			shape: "diamond"
+			tasks: [{
+				id: "3ABFA252485FD566"
+				item: "create:crushed_raw_copper"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			id: "329139AF4B699831"
+			shape: "diamond"
+			tasks: [{
+				id: "7F2E3A0B89AE2347"
+				item: "create:crushed_raw_zinc"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			id: "3D0B427185DFB845"
+			shape: "diamond"
+			tasks: [{
+				id: "26A48979E0E5E2B1"
+				item: "create:crushed_raw_silver"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.0d
+		}
+		{
+			id: "7DF46AE8F3873B30"
+			shape: "diamond"
+			tasks: [{
+				id: "2904B7C66BCB5B10"
+				item: "create:crushed_raw_tin"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.5d
+		}
+		{
+			id: "74410E4D343ECDCD"
+			shape: "diamond"
+			tasks: [{
+				id: "6EE61E9E1D580829"
+				item: "create:crushed_raw_lead"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			id: "2193699EE16CB581"
+			shape: "diamond"
+			tasks: [{
+				id: "4D80917AD9C5024A"
+				item: "create:crushed_raw_aluminum"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.5d
+		}
+		{
+			id: "5B88279EA27A6BB5"
+			shape: "diamond"
+			tasks: [{
+				id: "187A30CEB245849A"
+				item: "create:crushed_raw_uranium"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			id: "5AC15EE81B301E71"
+			shape: "diamond"
+			tasks: [{
+				id: "32DD99799C5A2E9C"
+				item: "create:crushed_raw_nickel"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.5d
+		}
+		{
+			id: "2CA48D82CB42A3A1"
+			tasks: [{
+				id: "6E72F0BD7BC39597"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			id: "2F434924049C499F"
+			tasks: [{
+				id: "24D9365D76C90712"
+				item: "create:wrench"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			id: "30A9AF202FA0FB56"
+			shape: "gear"
+			tasks: [
+				{
+					id: "41EBC7DFE12E5814"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "botania:petals"
+						}
+					}
+					title: "Any #botania:petals"
+					type: "item"
+				}
+				{
+					id: "6876F25D02216EB8"
+					item: "botania:flower_bag"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"You are currently using the &cBETA&r version."
+				"The &cquest book is not complete&r yet, and there are some missing and partially finished quest pages."
+				"The deficiencies in the quest book will be addressed in an upcoming update. Be sure to install updates regularly."
+			]
+			id: "68C5FD2492C8D96D"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "2BFC5B03CC8B95CA"
+				title: "YOU ARE ON BETA"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+	]
+	title: "Create and Beyond"
+}

@@ -1,0 +1,84 @@
+{
+  "parent": "minecraft:block/block",
+  "children": {
+    "solid": {
+      "parent": "minecraft:block/block",
+      "elements": [
+        {
+          "faces": {
+            "down": {
+              "cullface": "down",
+              "texture": "#base"
+            },
+            "east": {
+              "cullface": "east",
+              "texture": "#base"
+            },
+            "north": {
+              "cullface": "north",
+              "texture": "#base"
+            },
+            "south": {
+              "cullface": "south",
+              "texture": "#base"
+            },
+            "up": {
+              "cullface": "up",
+              "texture": "#base"
+            },
+            "west": {
+              "cullface": "west",
+              "texture": "#base"
+            }
+          },
+          "from": [
+            0,
+            0,
+            0
+          ],
+          "to": [
+            16,
+            16,
+            16
+          ]
+        }
+      ],
+      "textures": {
+        "base": "mm:block/base_block"
+      }
+    },
+    "translucent": {
+      "parent": "minecraft:block/block",
+      "elements": [
+        {
+          "faces": {
+            "north": {
+              "texture": "#overlay"
+            }
+          },
+          "from": [
+            0,
+            0,
+            0
+          ],
+          "to": [
+            16,
+            16,
+            16
+          ]
+        }
+      ],
+      "textures": {
+        "overlay": "mm:block/controller_cutout"
+      }
+    }
+  },
+  "item_render_order": [
+    "solid",
+    "translucent"
+  ],
+  "loader": "forge:composite",
+  "textures": {
+    "particle": "mm:block/controller_cutout"
+  }
+}

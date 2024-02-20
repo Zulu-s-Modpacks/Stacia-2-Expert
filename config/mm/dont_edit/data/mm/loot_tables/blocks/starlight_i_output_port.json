@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mm:starlight_i_output_port"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

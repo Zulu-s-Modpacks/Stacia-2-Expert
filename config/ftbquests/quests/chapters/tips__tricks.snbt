@@ -1,0 +1,367 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tips__tricks"
+	group: "2B2DBA5ACD7ED6E4"
+	icon: "botania:mana_diamond"
+	id: "526DCDF92BF5A6CB"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 2.0d
+		hover: [ ]
+		image: "infused_crystals:items/infused_diamondium_pickaxe"
+		rotation: 0.0d
+		width: 2.0d
+		x: 0.0d
+		y: -3.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The Ultimine Mod adds several features to Minecraft, such as vein mining, which allows the player to mine entire veins of ores with just one swing. The mod also adds a customizable HUD (heads-up display) that displays information about the block being mined, such as its name, hardness, and mining level required."
+				""
+				"Another useful feature of the Ultimine Mod is the ability to automatically collect dropped items. This can save a lot of time when mining and make the player's inventory management easier."
+			]
+			icon: {
+				Count: 1b
+				id: "botania:manasteel_pick"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5DDC3564364909AE"
+			rewards: [{
+				id: "368ECDB30C2C2E13"
+				item: "farmersdelight:bacon_sandwich"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&aVein Mining!"
+			tasks: [{
+				id: "0DCAC10E269F7AE6"
+				title: "Use FTB Ultimine"
+				type: "checkmark"
+			}]
+			title: "FTB Ultimine!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DDC3564364909AE"]
+			description: ["This item allows you to accelerate the rate at which blocks tick. It passively collects time while in your inventory which you can consume by right clicking a block with it. The first click requires 30 Seconds, the second 60, the third 120 the fourth 240 and the fifth 480."]
+			id: "2D718DCDE4379702"
+			subtitle: "Time Twister"
+			tasks: [{
+				id: "03FD34D245C12083"
+				item: {
+					Count: 1b
+					id: "tiab:time_in_a_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5DDC3564364909AE"]
+			description: [
+				"Akashic Tome is a megabook that contains all the guidebooks in the game. If for any reason you lose your book, you can get it here."
+				""
+				"{image:kubejs:textures/item/layer.png width:17 height:20 align:1}"
+			]
+			icon: "akashictome:tome"
+			id: "6C93A990B2398459"
+			rewards: [{
+				id: "6724909BCBF79998"
+				item: {
+					Count: 1b
+					id: "akashictome:tome"
+					tag: {
+						"akashictome:data": {
+							apotheosis: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "apotheosis:apoth_chronicle"
+								}
+							}
+							ars_nouveau: {
+								Count: 1b
+								id: "ars_nouveau:worn_notebook"
+							}
+							bigreactors: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "bigreactors:erguide"
+								}
+							}
+							blue_skies: {
+								Count: 1b
+								id: "blue_skies:blue_journal"
+							}
+							cookingforblockheads: {
+								Count: 1b
+								id: "cookingforblockheads:crafting_book"
+							}
+							cookingforblockheads_0: {
+								Count: 1b
+								id: "cookingforblockheads:recipe_book"
+								tag: {
+									"akashictome:definedMod": "cookingforblockheads_0"
+								}
+							}
+							cyclic: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "cyclic:cyclic_guide_book"
+								}
+							}
+							deeperdarker: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "deeperdarker:wanderers_notebook"
+								}
+							}
+							engineersdecor: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "engineersdecor:engineersdecor_manual"
+								}
+							}
+							ftbquests: {
+								Count: 1b
+								id: "ftbquests:book"
+							}
+							hexerei: {
+								Count: 1b
+								id: "hexerei:book_of_shadows"
+								tag: {
+									bookmarks: { }
+									chapter: 0
+									opened: 0b
+									page: 0
+								}
+							}
+							immersiveengineering: {
+								Count: 1b
+								id: "immersiveengineering:manual"
+							}
+							industrialforegoing: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "industrialforegoing:industrial_foregoing"
+								}
+							}
+							modonomicon: {
+								Count: 1b
+								id: "modonomicon:modonomicon"
+								tag: {
+									"modonomicon:book_id": "modonomicon:demo"
+								}
+							}
+							modularrouters: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "modularrouters:book"
+								}
+							}
+							naturesaura: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "naturesaura:book"
+								}
+							}
+							occultism: {
+								Count: 1b
+								id: "occultism:book_of_calling_djinni_manage_machine"
+								tag: {
+									spiritName: "Aldmiridryn"
+								}
+							}
+							occultism_0: {
+								Count: 1b
+								id: "occultism:book_of_calling_foliot_cleaner"
+								tag: {
+									"akashictome:definedMod": "occultism_0"
+									spiritName: "Crymyrlyr"
+								}
+							}
+							pneumaticcraft: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "pneumaticcraft:book"
+								}
+							}
+							powah: {
+								Count: 1b
+								id: "powah:book"
+							}
+							productivebees: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "productivebees:guide"
+								}
+							}
+							rftoolsbase: {
+								Count: 1b
+								id: "rftoolsbase:manual"
+							}
+							silentgear: {
+								Count: 1b
+								id: "silentgear:guide_book"
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Arcane Archive"
+			tasks: [{
+				id: "7179E52350E83A71"
+				title: "All The Books"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5DDC3564364909AE"]
+			description: [
+				"Crafting table on a stick is a special crafting table that you can use anywhere without having to put it on any floor."
+				""
+				"Pro Tip: You can also put it in &aCurios's slot&f and open it with a &ahotkey&f!"
+			]
+			id: "7135C5D201001D62"
+			rewards: [{
+				id: "26C57405C268804D"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Handyman's Helper"
+			tasks: [{
+				id: "6DF022FE33C1A528"
+				item: "crafting_on_a_stick:crafting_table"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5DDC3564364909AE"]
+			description: [
+				"The \"Building Gadget\" is a powerful tool that allows players to create and manipulate large structures quickly and easily. With the gadget in hand, players can place blocks, rotate them, and copy or move entire sections of a building with just a few clicks."
+				""
+				"The gadget offers several different modes, each with its own set of features. For example, the \"Copy Paste\" mode allows players to select a specific area of a building and duplicate it elsewhere, while the \"Build To Me\" mode enables the player to construct structures piece by piece in real-time as they move around."
+				""
+			]
+			icon: {
+				Count: 1b
+				id: "buildinggadgets:gadget_building"
+				tag: {
+					energy: 500000.0d
+					state: {
+						data: { }
+						serializer: "buildinggadgets:dummy_serializer"
+						state: {
+							Name: "minecraft:air"
+						}
+					}
+				}
+			}
+			id: "4D7CD33DEE1CFB6D"
+			rewards: [{
+				id: "7B2BC77E4A3287C8"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Block Blender"
+			tasks: [{
+				id: "27A6D3C8EE4D69DF"
+				title: "Building Gadgets!"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5DDC3564364909AE"]
+			description: ["There is a shortcut button on the top right of the Quest Book that allows us to collect all the rewards with one click."]
+			icon: "reliquary:fortune_coin"
+			id: "7422A0AF304C7B8C"
+			rewards: [{
+				id: "5388FD25CD6AEAEB"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Everything Everywhere All At Once"
+			tasks: [{
+				id: "6250C7BDA5C2518E"
+				title: "Collect All Rewards!"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5DDC3564364909AE"]
+			description: ["When you insert this talisman into your &acurios slot&r, no wandering trader will spawn around you. Unlike the alternative with a sign, since it is in your inventory and not in a fixed area, no trader will spawn wherever you go."]
+			id: "1DBD1012F210BA46"
+			rewards: [{
+				id: "7CE33DD5D667E880"
+				item: "minecraft:lead"
+				type: "item"
+			}]
+			subtitle: "Go Away Wanderer!"
+			tasks: [{
+				id: "019678C1DDBE2754"
+				item: {
+					Count: 1b
+					id: "nomowanderer:no_mo_wanderer_totem"
+					tag: {
+						Enabled: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5DDC3564364909AE"]
+			description: [
+				"You can buy all &aspawn eggs&r from the market!"
+				"Of course, for a little bit &afee&r."
+			]
+			icon: "farmingforblockheads:market"
+			id: "3B975FC2B691A484"
+			rewards: [{
+				id: "2F046D6EC89F0ED9"
+				item: "farmingforblockheads:market"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27F84A2EF2CF05D8"
+				title: "Spawn Eggs!"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+	]
+	title: "Tips and Tricks"
+}

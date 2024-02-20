@@ -1,0 +1,20 @@
+{
+  "entries": [
+    {
+      "item": "#forge:dusts",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:redstone",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:glowstone_dust",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:prismarine_shard",
+      "emc": 128
+    }
+  ]
+}

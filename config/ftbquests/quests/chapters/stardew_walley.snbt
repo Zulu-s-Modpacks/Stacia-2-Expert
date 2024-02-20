@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "stardew_walley"
+	group: "264B385B6E89D41B"
+	icon: "farmersdelight:sweet_berry_cheesecake"
+	id: "33CB7556E6C71215"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Stardew Walley"
+}

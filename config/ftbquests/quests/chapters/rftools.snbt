@@ -1,0 +1,50 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rftools"
+	group: "02FE910EDEFB2C10"
+	icon: "rftoolsbase:machine_frame"
+	id: "07557446379B8FB8"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5AC6A7911610E245"
+			tasks: [{
+				id: "0C30A4A26A8EBF19"
+				item: "rftoolsbase:machine_frame"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "74B08C84946BFCC7"
+			tasks: [{
+				id: "53A4179C21B33447"
+				item: "rftoolsbuilder:builder"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"You are currently using the &cBETA&r version."
+				"The &cquest book is not complete&r yet, and there are some missing and partially finished quest pages."
+				"The deficiencies in the quest book will be addressed in an upcoming update. Be sure to install updates regularly."
+			]
+			id: "4751F5C525FE46A6"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "2C613EAA7FAFAE55"
+				title: "YOU ARE ON BETA"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+	title: "RFTools"
+}

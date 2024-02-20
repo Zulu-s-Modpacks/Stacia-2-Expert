@@ -1,0 +1,140 @@
+{
+  "profession": "blue_skies:stargazer",
+  "removeOtherTrades": false,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:clock",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "blue_skies:falsite_ingot",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "blue_skies:moonstone_shard",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "blue_skies:star_flare",
+        "amount": 32,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:compass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "blue_skies:ventium_ingot",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "blue_skies:moonstone_shard",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:glass",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 7,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:moonstone_lantern",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "blue_skies:moonstone",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:iron_bars",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 25,
+      "maxUses": 15,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:astrolabe",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5
+    }
+  ]
+}

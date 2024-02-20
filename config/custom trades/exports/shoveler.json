@@ -1,0 +1,62 @@
+{
+  "profession": "blue_skies:shoveler",
+  "removeOtherTrades": false,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "blue_skies:falsite_ingot",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:snow_block",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "blue_skies:falsite_ingot",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "blue_skies:falsite_ingot",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "blue_skies:aquite",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2
+    }
+  ]
+}

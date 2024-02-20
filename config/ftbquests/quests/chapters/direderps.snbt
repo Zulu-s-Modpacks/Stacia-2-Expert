@@ -1,0 +1,200 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "direderps"
+	group: "264B385B6E89D41B"
+	icon: {
+		Count: 1b
+		id: "mininggadgets:mininggadget"
+		tag: {
+			energy: 1000000.0d
+		}
+	}
+	id: "0CB1172E54B74784"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "thermal:item/wrench"
+		rotation: 0.0d
+		width: 1.0d
+		x: 0.0d
+		y: -1.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["56210E593F225517"]
+			id: "0A0279B6EED12A66"
+			tasks: [{
+				id: "7A5965D1E1B9DA92"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:gadget_building"
+					tag: {
+						state: {
+							data: { }
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56210E593F225517"]
+			id: "74D6E2301F7251F9"
+			tasks: [{
+				id: "72BD2E87B86DE108"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:gadget_exchanging"
+					tag: {
+						state: {
+							data: { }
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56210E593F225517"]
+			id: "7EC463203776363C"
+			tasks: [{
+				id: "2440921BBD5E6FF0"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:gadget_copy_paste"
+					tag: {
+						mode: 0b
+						template_id: [I;
+							318326200
+							493373219
+							-1094333923
+							-1092041274
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["56210E593F225517"]
+			id: "46695F17B9AAB020"
+			tasks: [{
+				id: "5112F01C8CA07F81"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:gadget_destruction"
+					tag: {
+						fuzzy: 1b
+						overlay: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			id: "56210E593F225517"
+			tasks: [{
+				id: "62E995C370A99790"
+				item: {
+					Count: 1b
+					id: "charginggadgets:charging_station"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "34ABB0D8BDAA3CEA"
+			tasks: [{
+				id: "35560CA0BD0E2D40"
+				item: {
+					Count: 1b
+					id: "mininggadgets:mininggadget_simple"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "221DEF2C5C0CFAED"
+			tasks: [{
+				id: "2B05D1BFF1AD1A70"
+				item: "mininggadgets:modificationtable"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			id: "65380B6BD76A09C3"
+			shape: "diamond"
+			tasks: [{
+				id: "73E3761DF36FC7F5"
+				item: "mininggadgets:upgrade_magnet"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "1D076D49C0F29B97"
+			shape: "diamond"
+			tasks: [{
+				id: "6727650DD351B780"
+				item: "mininggadgets:upgrade_three_by_three"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			id: "4FDE1BA47E8C2C3D"
+			shape: "diamond"
+			tasks: [{
+				id: "6FCB47773C570756"
+				item: "mininggadgets:upgrade_battery_1"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			id: "769961282DE95F82"
+			shape: "diamond"
+			tasks: [{
+				id: "213039C11122EAFC"
+				item: "mininggadgets:upgrade_efficiency_5"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+	]
+	title: "DireDerps"
+}

@@ -1,0 +1,553 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "eu_is_now"
+	group: "02FE910EDEFB2C10"
+	icon: "ftbic:energy_crystal"
+	id: "1D21173BD307B353"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "41689441AC5A6E48"
+			shape: "hexagon"
+			size: 1.4d
+			tasks: [{
+				id: "3E14F16A52E1D85C"
+				item: "ftbic:basic_generator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41689441AC5A6E48"]
+			id: "21AC31904835C5DE"
+			tasks: [{
+				id: "298153F526132B4B"
+				item: "ftbic:macerator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41689441AC5A6E48"]
+			id: "4F9EC3C8A1BF93C1"
+			tasks: [{
+				id: "28B505F1272CE9DB"
+				item: "ftbic:compressor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["41689441AC5A6E48"]
+			id: "007810D66A7A15BC"
+			tasks: [{
+				id: "729E068B52BF163E"
+				item: "ftbic:roller"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["41689441AC5A6E48"]
+			id: "45CAAA426697032E"
+			tasks: [{
+				id: "2A5D353A3923606B"
+				item: "ftbic:extruder"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41689441AC5A6E48"]
+			id: "4F9B22E3438B76E0"
+			tasks: [{
+				id: "4442C1455C25A128"
+				item: "ftbic:powered_furnace"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["41689441AC5A6E48"]
+			id: "2E89C3DBC31A8C67"
+			tasks: [{
+				id: "3C92AC8463E86A98"
+				item: "ftbic:canning_machine"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["17840B5505BD9635"]
+			id: "3681281E1DC21831"
+			tasks: [{
+				id: "74CA198D658ECA3B"
+				item: "ftbic:lv_cable"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3681281E1DC21831"]
+			id: "4CCE0577BDFB2A1D"
+			tasks: [{
+				id: "5AB09909C486534C"
+				item: "ftbic:mv_cable"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4CCE0577BDFB2A1D"]
+			id: "4E54498BE471C1D9"
+			tasks: [{
+				id: "695EB8CBB9E00930"
+				item: "ftbic:hv_cable"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4E54498BE471C1D9"]
+			id: "607463ACCFDA3B40"
+			tasks: [{
+				id: "6FC0D02AD1A4EBAD"
+				item: "ftbic:ev_cable"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["607463ACCFDA3B40"]
+			id: "24D687E17C4F382E"
+			tasks: [{
+				id: "198AC7037D5312D4"
+				item: "ftbic:iv_cable"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4CCE0577BDFB2A1D"]
+			id: "6AC6F3754F720BB7"
+			tasks: [{
+				id: "79DB62214B09AA14"
+				item: "ftbic:mv_transformer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"4E54498BE471C1D9"
+				"6AC6F3754F720BB7"
+			]
+			id: "29D211033746F212"
+			tasks: [{
+				id: "6B2B10B90DB07619"
+				item: "ftbic:hv_transformer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6AC6F3754F720BB7"
+				"607463ACCFDA3B40"
+			]
+			id: "5262B3E5C57C8CA3"
+			tasks: [{
+				id: "7F8EA41953A76722"
+				item: "ftbic:ev_transformer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			id: "1E66AD3D4A5D6D18"
+			shape: "hexagon"
+			size: 1.4d
+			tasks: [{
+				id: "4C9E5DAB3664B735"
+				item: "ftbic:geothermal_generator"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			id: "7F4492B45C3C3AB5"
+			tasks: [{
+				id: "0358FE7DABA4333C"
+				item: "ftbic:fluid_cell"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1E66AD3D4A5D6D18"]
+			id: "520CA2D820FDC070"
+			shape: "diamond"
+			tasks: [{
+				id: "4178CAD071E966CD"
+				item: "ftbic:lv_solar_panel"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E66AD3D4A5D6D18"]
+			id: "7AF61C07DB620FC4"
+			shape: "diamond"
+			tasks: [{
+				id: "4F7B93F62C0F57D6"
+				item: "ftbic:mv_solar_panel"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1E66AD3D4A5D6D18"]
+			id: "706D5064EAF32182"
+			shape: "diamond"
+			tasks: [{
+				id: "2F5D5ED3834FE142"
+				item: "ftbic:hv_solar_panel"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E66AD3D4A5D6D18"]
+			id: "652AAD8C44201673"
+			shape: "diamond"
+			tasks: [{
+				id: "05D25052A06A316F"
+				item: "ftbic:ev_solar_panel"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"319BDE1FDC066ABF"
+				"1E66AD3D4A5D6D18"
+			]
+			id: "1D885298218CB2E8"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0A066E9E68BF369F"
+				item: "ftbic:nuclear_reactor"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4F9EC3C8A1BF93C1"]
+			id: "17840B5505BD9635"
+			tasks: [{
+				id: "1854344B855EC45C"
+				item: "ftbic:carbon_plate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["17840B5505BD9635"]
+			id: "1B96B1555E7D4DD9"
+			tasks: [{
+				id: "06D80FC905B102FD"
+				item: {
+					Count: 1b
+					id: "ftbic:carbon_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1B96B1555E7D4DD9"]
+			id: "7D3BB0CC7B3E0D8D"
+			tasks: [{
+				id: "6450797BE5EEED36"
+				item: {
+					Count: 1b
+					id: "ftbic:carbon_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7D3BB0CC7B3E0D8D"]
+			id: "5D818FC0BCD3BF34"
+			tasks: [{
+				id: "2A2D3871FE075F96"
+				item: {
+					Count: 1b
+					id: "ftbic:carbon_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5D818FC0BCD3BF34"]
+			id: "428D8EA20A16F34E"
+			tasks: [{
+				id: "37BF4BF6BF88D410"
+				item: {
+					Count: 1b
+					id: "ftbic:carbon_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1B96B1555E7D4DD9"]
+			id: "508C0CBD7177810E"
+			tasks: [{
+				id: "621EA0E963F38765"
+				item: {
+					Count: 1b
+					id: "ftbic:quantum_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7D3BB0CC7B3E0D8D"]
+			id: "63A60B03D830C7F3"
+			tasks: [{
+				id: "0155C87ED9F591CC"
+				item: {
+					Count: 1b
+					id: "ftbic:quantum_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5D818FC0BCD3BF34"]
+			id: "0A675C45F36404C0"
+			tasks: [{
+				id: "1EC1298F0C976228"
+				item: {
+					Count: 1b
+					id: "ftbic:quantum_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["428D8EA20A16F34E"]
+			id: "4461449B57FD1ABD"
+			tasks: [{
+				id: "7C200955F8059F66"
+				item: {
+					Count: 1b
+					id: "ftbic:quantum_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			id: "6AF3459129281362"
+			tasks: [{
+				id: "796A562639B80766"
+				item: {
+					Count: 1b
+					id: "ftbic:small_coolant_cell"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			id: "5149994B65BA36EA"
+			shape: "diamond"
+			tasks: [{
+				id: "18135E891D9FD782"
+				item: "ftbic:overclocker_upgrade"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			id: "457511595AF94697"
+			shape: "diamond"
+			tasks: [{
+				id: "2FBBAB73F6114CEC"
+				item: "ftbic:transformer_upgrade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			id: "4550F4392830ACE3"
+			shape: "diamond"
+			tasks: [{
+				id: "49F20F79315FBE70"
+				item: "ftbic:energy_storage_upgrade"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			id: "048D5FE051128F0F"
+			shape: "diamond"
+			tasks: [{
+				id: "59578E5575F8EE02"
+				item: "ftbic:energy_storage_upgrade"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3579C20AD211062F"]
+			id: "30EF40CAF64D867C"
+			size: 1.4d
+			tasks: [{
+				id: "786AC086C1145269"
+				item: "ftbic:antimatter_constructor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["17840B5505BD9635"]
+			id: "10C29226DCFC7C29"
+			tasks: [{
+				id: "76EA349620C2F77E"
+				item: "ftbic:advanced_machine_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["10C29226DCFC7C29"]
+			id: "319BDE1FDC066ABF"
+			tasks: [{
+				id: "38EE212C1D0B2DB4"
+				item: "ftbic:nuclear_reactor_chamber"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["10C29226DCFC7C29"]
+			id: "3579C20AD211062F"
+			tasks: [{
+				id: "5169666206745B12"
+				item: "ftbic:reprocessor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["30EF40CAF64D867C"]
+			id: "57B1CE87F51A1DDD"
+			shape: "gear"
+			size: 1.6d
+			tasks: [{
+				id: "5A1A4D14EFAA8B61"
+				item: "ftbic:antimatter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			description: [
+				"You are currently using the &cBETA&r version."
+				"The &cquest book is not complete&r yet, and there are some missing and partially finished quest pages."
+				"The deficiencies in the quest book will be addressed in an upcoming update. Be sure to install updates regularly."
+			]
+			id: "33D895A700BEBBE4"
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "61D8234456D18F6B"
+				title: "YOU ARE ON BETA"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+	]
+	title: "Metallic Wings"
+}

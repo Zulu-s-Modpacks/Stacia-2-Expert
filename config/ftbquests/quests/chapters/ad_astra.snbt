@@ -1,0 +1,414 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ad_astra"
+	group: "02FE910EDEFB2C10"
+	icon: {
+		Count: 1b
+		id: "ad_astra:tier_4_rocket"
+		tag: {
+			BotariumData: { }
+		}
+	}
+	id: "5DB7DE827D95C2DA"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "650A64216527F91C"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "69B82F823292ABB8"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_1_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "6A67A626354F8951"
+			tasks: [{
+				id: "4354CFF8D8D31ED4"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "30F11DFEE06523FF"
+			tasks: [{
+				id: "7F9C9C5FFA064E88"
+				item: "ad_astra:fuel_refinery"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			id: "3A690A437ECD4D8F"
+			tasks: [{
+				id: "35BBF71BEF181B7A"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			icon: "ad_astra:fuel_bucket"
+			id: "402B3119CFD22DC1"
+			tasks: [{
+				amount: 8000L
+				fluid: "ad_astra:fuel"
+				id: "5F2F2254900B5310"
+				type: "fluid"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "20C6E1314DCA06BE"
+			shape: "diamond"
+			tasks: [{
+				id: "256FA612795DB446"
+				item: {
+					Count: 1b
+					id: "ad_astra:space_suit"
+					tag: {
+						BotariumData: { }
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "5FABC18D5E380DBA"
+			shape: "diamond"
+			tasks: [{
+				id: "00348712B7558820"
+				item: {
+					Count: 1b
+					id: "ad_astra:space_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			id: "780D1567DC794B62"
+			shape: "diamond"
+			tasks: [{
+				id: "22972EF4FD591F7A"
+				item: {
+					Count: 1b
+					id: "ad_astra:space_pants"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			id: "60A9B62C6DA98183"
+			shape: "diamond"
+			tasks: [{
+				id: "73E64D2AD97E5E23"
+				item: {
+					Count: 1b
+					id: "ad_astra:space_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			id: "4AE0090D4CD045F9"
+			tasks: [{
+				id: "17E812CABA09776D"
+				item: "ad_astra:oxygen_gear"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "7F0070FE8951139F"
+			tasks: [{
+				id: "3F9701A0F9A52D43"
+				item: {
+					Count: 1b
+					id: "ad_astra:oxygen_tank"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			id: "0AD4F10FD316D713"
+			tasks: [{
+				id: "239E11D985CD4EDD"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			id: "4B340CCD519F634F"
+			tasks: [{
+				id: "3B8E09FDDEC49074"
+				item: "kubejs:lunaria_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "1B279B53A95563FA"
+			tasks: [{
+				id: "0FE280D7FDA5D729"
+				item: "ad_astra:moon_sand"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			id: "5190ABC0CCF4EB28"
+			tasks: [{
+				dimension: "ad_astra:moon"
+				id: "08BCF6209B1C63AF"
+				type: "dimension"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "2E152DE0D7A7B746"
+			tasks: [{
+				id: "65DDD4415DD3DC37"
+				item: "ad_astra:desh_tank"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			id: "64A096E3749AA817"
+			tasks: [{
+				id: "30B3DABC9B05FD09"
+				item: "ad_astra:raw_desh"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			id: "31969EB8FF8C1A74"
+			tasks: [{
+				id: "4F3AFEBDDC484348"
+				item: "ad_astra:desh_engine"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			id: "58F505924A195E22"
+			tasks: [{
+				id: "4A4F6CC0C8ADF04F"
+				item: "ad_astra:moon_globe"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			id: "21BC50A0A5421F28"
+			shape: "hexagon"
+			size: 1.4d
+			tasks: [{
+				id: "0A25CB6A34AE8FCB"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_2_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			id: "0E4503697ADDBAE6"
+			shape: "diamond"
+			tasks: [{
+				id: "24438B5FA5945C36"
+				item: {
+					Count: 1b
+					id: "ad_astra:netherite_space_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			id: "3F2423BB3B3FA940"
+			shape: "diamond"
+			tasks: [{
+				id: "10A73F003FC2515F"
+				item: {
+					Count: 1b
+					id: "ad_astra:netherite_space_suit"
+					tag: {
+						BotariumData: { }
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			id: "612DF97446062515"
+			shape: "diamond"
+			tasks: [{
+				id: "4C1C4E10480CC8B7"
+				item: {
+					Count: 1b
+					id: "ad_astra:netherite_space_pants"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.5d
+		}
+		{
+			id: "496C71E8179FB061"
+			shape: "diamond"
+			tasks: [{
+				id: "7D6735760156429A"
+				item: {
+					Count: 1b
+					id: "ad_astra:netherite_space_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.0d
+		}
+		{
+			icon: "ad_astra:mars_globe"
+			id: "592E00584D6B4760"
+			tasks: [
+				{
+					dimension: "ad_astra:mars"
+					id: "35380F4641A7955F"
+					type: "dimension"
+				}
+				{
+					id: "7F33C86AED9F5855"
+					item: "ad_astra:mars_globe"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			id: "5802EA502D63BF1C"
+			tasks: [{
+				id: "5F1CB278704BDA10"
+				item: "ad_astra:raw_ostrum"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			id: "75E789AFB1F606BA"
+			tasks: [{
+				id: "6F6B47B4ADC9E921"
+				item: "ad_astra:ostrum_engine"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			id: "42C5E0AE1A9E0149"
+			shape: "hexagon"
+			size: 1.4d
+			tasks: [{
+				id: "52087964F4280780"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_3_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"You are currently using the &cBETA&r version."
+				"The &cquest book is not complete&r yet, and there are some missing and partially finished quest pages."
+				"The deficiencies in the quest book will be addressed in an upcoming update. Be sure to install updates regularly."
+			]
+			id: "02B188124569C814"
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "1D189FE6A6E18D54"
+				title: "YOU ARE ON BETA"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+	]
+	title: "Ad Astra"
+}

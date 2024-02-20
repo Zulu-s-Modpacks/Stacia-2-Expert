@@ -1,0 +1,128 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "farewell"
+	group: "24A49DC675E4A8C0"
+	icon: "kubejs:madeline_strawberry"
+	id: "35C505A41B46116A"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 3.0d
+		hover: [ ]
+		image: "kubejs:textures/item/strawwings.png"
+		rotation: 0.0d
+		width: 5.2725752508361206d
+		x: -2.5d
+		y: -2.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"1FACC483FDBC11FD"
+				"202182612C7AB480"
+				"1657AA9579DA6260"
+			]
+			id: "4D2BF9F277ABA227"
+			size: 2.0d
+			subtitle: "A Story Of Madeline and Badeline"
+			tasks: [{
+				id: "74A5707A81475AEB"
+				item: "kubejs:madeline_strawberry"
+				title: "&dMadeline's Strawberry"
+				type: "item"
+			}]
+			x: -2.3d
+			y: -2.1d
+		}
+		{
+			id: "1FACC483FDBC11FD"
+			size: 1.2d
+			tasks: [{
+				id: "2A988CD944C78DA6"
+				item: "kubejs:devilish_horn"
+				type: "item"
+			}]
+			x: -4.8d
+			y: -3.8d
+		}
+		{
+			id: "202182612C7AB480"
+			size: 1.2d
+			tasks: [{
+				id: "3F2BD4D47281C213"
+				item: "mysticalagriculture:awakened_supremium_essence"
+				type: "item"
+			}]
+			x: -2.3d
+			y: -4.8d
+		}
+		{
+			id: "1657AA9579DA6260"
+			size: 1.2d
+			tasks: [{
+				id: "75BF772321595F72"
+				item: "kubejs:slate_uwuterium"
+				type: "item"
+			}]
+			x: 0.20000000000000018d
+			y: -3.8d
+		}
+		{
+			dependencies: ["4D2BF9F277ABA227"]
+			id: "23303BAC5806F854"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "3E94459EE47C86DB"
+				item: "ars_nouveau:creative_source_jar"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4D2BF9F277ABA227"]
+			id: "3A80030A11CCF8B5"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1165C1328B7626FB"
+				item: "create:creative_motor"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D2BF9F277ABA227"]
+			id: "67FE10198B4BDA0F"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0842F66F1F172BEB"
+				item: "botania:creative_pool"
+				type: "item"
+			}]
+			x: 0.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D2BF9F277ABA227"]
+			id: "54CF1472C051D6BA"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "481002DF7210F083"
+				item: "create:creative_blaze_cake"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+	]
+	title: "Farewell"
+}
