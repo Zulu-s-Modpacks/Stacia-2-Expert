@@ -1,0 +1,27 @@
+{
+	"type": "botania:terra_plate",
+	"ingredients": [
+	  {
+		"item": "botania:elementium_ingot"
+	  },
+	  {
+		"item": "botania:corporea_spark"
+	  },
+	  {
+		"type": "forge:nbt",
+		"item": "productivebees:configurable_honeycomb",
+		"count": 1,
+		"nbt": "{EntityTag:{type:\"productivebees:elementium\"}}"
+	  },
+	  {
+		"item": "botania:pixie_dust"
+	  },
+	  {
+		"item": "reaper:rune_obitus"
+	  }
+	],
+	"mana": 500000,
+	"result": {
+	  "item": "kubejs:uwuterium_ingot"
+	}
+  }

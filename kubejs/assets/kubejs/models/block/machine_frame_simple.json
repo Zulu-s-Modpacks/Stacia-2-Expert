@@ -1,0 +1,9 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "top": "kubejs:block/top",
+    "front": "kubejs:block/side",
+    "side": "kubejs:block/side",
+    "bottom": "kubejs:block/bottom"
+  }
+}

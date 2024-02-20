@@ -1,0 +1,24 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "value": [
+        {"item": "minecraft:sponge"}
+      ],
+      "count": 1
+    },
+    {
+      "value": [
+        {"item": "functionalstorage:diamond_upgrade"}
+      ],
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "item": "functionalstorage:netherite_upgrade",
+      "count": 1
+    }
+  ],
+  "energy": 50000
+}

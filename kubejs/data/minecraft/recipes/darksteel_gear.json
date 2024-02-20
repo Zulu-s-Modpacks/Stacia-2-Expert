@@ -1,0 +1,17 @@
+{
+    "type": "thermal:press",
+    "ingredients": [
+      {
+        "tag": "forge:ingots/darksteel",
+        "count": 4
+      },
+      {
+        "item": "thermal:press_gear_die"
+      }
+    ],
+    "result": [
+      {
+        "item": "kubejs:darksteel_gear"
+      }
+    ]
+  }

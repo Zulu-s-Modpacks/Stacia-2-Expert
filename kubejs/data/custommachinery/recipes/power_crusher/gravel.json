@@ -1,0 +1,41 @@
+{
+	"type": "custommachinery:custom_machine",
+	"machine": "custommachinery:power_crusher",
+	"time": 100,
+	"requirements": [
+		{
+			"type": "custommachinery:fluid",
+			"capacity": 10000,
+			"id": "watertank",
+			"maxInput": 666,
+			"maxOutput": 1000,
+			"filter": ["minecraft:water"],
+			"whitelist": true
+		  },
+		{
+			"type": "custommachinery:energy_per_tick",
+			"amount": 20,
+			"mode": "input"
+		},
+		{
+			"type": "custommachinery:item",
+			"item": "minecraft:gravel",
+			"amount": 1,
+			"mode": "output"
+		},
+		{
+			"type": "custommachinery:item",
+			"item": "minecraft:sponge",
+			"amount": 1,
+			"mode": "output",
+			"chance": 0.5
+		},
+		{
+			"type": "custommachinery:item",
+			"item": "minecraft:gravel",
+			"amount": 1,
+			"mode": "output",
+			"chance": 0.1
+		}
+	]
+}

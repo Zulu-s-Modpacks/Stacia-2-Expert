@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "infused_crystals:infused_coalium_crystal"
+    },
+    "1": {
+      "item": "infused_crystals:coalium_stick"
+    },
+    "2": {
+      "item": "infused_crystals:coalium_stick"
+    }
+  },
+  "result": {
+    "item": "infused_crystals:infusedcoaliumshovel",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+	"type": "thermal:press",
+	"ingredients": [
+	  {
+		"tag": "forge:dusts/redstone",
+		"count": 9
+	  },
+	  {
+		"item": "kubejs:large_plate_cast"
+	  }
+	],
+	"result": [
+	  {
+		"item": "kubejs:lp_redstone"
+	  }
+	],
+	"energy": 400
+  }

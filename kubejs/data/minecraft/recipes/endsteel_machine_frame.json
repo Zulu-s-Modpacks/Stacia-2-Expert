@@ -1,0 +1,28 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "value": [
+        {"item": "thermal:machine_frame"}
+      ],
+      "count": 1
+    },
+    {
+      "value": [
+        {"item": "kubejs:endsteel_ingot"}
+      ],
+      "count": 8
+    },
+    {
+      "tag": "forge:ingots/steel",
+      "count": 4
+    }
+  ],
+  "result": [
+    {
+      "item": "kubejs:machine_frame_simple",
+      "count": 1
+    }
+  ],
+  "energy": 12000
+}

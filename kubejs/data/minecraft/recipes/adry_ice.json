@@ -1,0 +1,14 @@
+{
+	"type": "create:pressing",
+	"ingredients": [
+	  {
+		"item": "minecraft:redstone_block"
+	  }
+	],
+	"results": [
+	  {
+		"item": "minecraft:furnace",
+		"count": 1
+	  }
+	]
+  }

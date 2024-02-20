@@ -1,0 +1,18 @@
+{
+    "type": "thermal:press",
+    "ingredients": [
+      {
+        "tag": "forge:ingots/diamond",
+        "count": 4
+      },
+      {
+        "item": "thermal:press_gear_die"
+      }
+    ],
+    "result": [
+      {
+        "item": "thermal:diamond_gear"
+      }
+    ],
+    "energy": 400
+  }

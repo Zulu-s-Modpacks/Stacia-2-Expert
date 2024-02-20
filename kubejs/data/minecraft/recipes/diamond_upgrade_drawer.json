@@ -1,0 +1,24 @@
+{
+    "type": "thermal:smelter",
+    "ingredients": [
+      {
+        "value": [
+          {"tag": "forge:gems/mana_diamond"}
+        ],
+        "count": 1
+      },
+      {
+        "value": [
+          {"item": "functionalstorage:gold_upgrade"}
+        ],
+        "count": 1
+      }
+    ],
+    "result": [
+      {
+        "item": "functionalstorage:diamond_upgrade",
+        "count": 1
+      }
+    ],
+    "energy": 50000
+  }

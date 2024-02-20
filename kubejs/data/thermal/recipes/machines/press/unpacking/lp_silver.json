@@ -1,0 +1,18 @@
+{
+	"type": "thermal:press",
+	"ingredients": [
+	  {
+		"tag": "forge:ingots/silver",
+		"count": 9
+	  },
+	  {
+		"item": "kubejs:large_plate_cast"
+	  }
+	],
+	"result": [
+	  {
+		"item": "kubejs:lp_silver"
+	  }
+	],
+	"energy": 400
+  }

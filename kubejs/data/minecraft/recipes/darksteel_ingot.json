@@ -1,0 +1,28 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "value": [
+        {"tag": "forge:dusts/coal"}
+      ],
+      "count": 1
+    },
+    {
+      "value": [
+        {"item": "minecraft:iron_ingot"}
+      ],
+      "count": 1
+    },
+    {
+      "item": "minecraft:obsidian",
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "item": "kubejs:darksteel_ingot",
+      "count": 1
+    }
+  ],
+  "energy": 12000
+}

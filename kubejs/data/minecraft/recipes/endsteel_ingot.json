@@ -1,0 +1,28 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "value": [
+        {"item": "kubejs:darksteel_ingot"}
+      ],
+      "count": 1
+    },
+    {
+      "value": [
+        {"item": "minecraft:end_stone"}
+      ],
+      "count": 1
+    },
+    {
+      "item": "minecraft:obsidian",
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "item": "kubejs:endsteel_ingot",
+      "count": 1
+    }
+  ],
+  "energy": 12000
+}
