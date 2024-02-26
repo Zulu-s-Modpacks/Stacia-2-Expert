@@ -831,24 +831,6 @@ event.shaped('kubejs:plate_diamond', [
   ], {
   A: Item.of('#forge:gemingot/diamond' ),
   B: 'immersiveengineering:hammer'})
-
-  var materials43 = [
-    "endsteel",
-    "darksteel",
-    "emerald",
-    "lapis",
-    "quartz"
-  ];
-  
-  materials43.forEach(function(material) {
-    event.shaped('kubejs:plate_' + material, [
-      'BA',
-      'A '
-    ], {
-      A: Item.of('#forge:gemingot/' + material),
-      B: 'immersiveengineering:hammer'
-    })
-  });
   
   event.recipes.thermal.press('kubejs:plate_endsteel', '#forge:gemingot/endsteel')
   event.recipes.thermal.press('kubejs:plate_darksteel', '#forge:gemingot/darksteel')
