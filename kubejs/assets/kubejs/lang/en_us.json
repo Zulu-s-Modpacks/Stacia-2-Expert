@@ -1,0 +1,279 @@
+{
+    "infuse_type.kubejs.aquamarine":"Aquamarine",
+    "infuse_type.kubejs.enderium":"Enderium",
+    "infuse_type.kubejs.black_quartz":"Black Quartz",
+
+    "block.kubejs.arcane_ore": "Arcane Ore",
+    "block.kubejs.magical_casing": "Ancient Stone Bricks",
+    "block.kubejs.glimmering_livingrock": "Glimmering Livingrock",
+    "block.kubejs.aquamarine_block": "Block of Aquamarine",
+    "block.kubejs.machine_frame_simple": "Endsteel Machine Frame",
+    "block.kubejs.draconium_block": "§5Draconium Block",
+    "block.kubejs.charged_draconium_block": "§5Charged Draconium Block",
+    "block.kubejs.awakened_draconium_block": "§6Awakened Draconium Block",
+    "block.kubejs.goldium_block": "Block of Goldium Crystal",
+    "block.kubejs.infused_goldium_block": "Block of Infused Goldium Crystal",
+    "block.kubejs.grout": "Grout",
+    "block.kubejs.slimesteel_block": "Block of Slimesteel",
+    "block.kubejs.pigiron_block": "Block of Pig Iron",
+    "block.kubejs.soulsteel_block": "Block of Soulsteel",
+    "block.kubejs.hepatizon_block": "Block of Hepatizon",
+    "block.kubejs.starmetal_ore": "Starmetal Ore",
+    "block.kubejs.mana_sand": "Aquamarine Shale",
+    "block.kubejs.uwuterium_block": "§dBlock Of Uwuterium",
+    "block.kubejs.osgloglas_block": "Block Of Osgloglas",
+    "block.kubejs.darksteel_block": "Block Of Darksteel",
+    "block.kubejs.raw_arcane_block": "Block Of Raw Arcane",
+
+    "fluid.kubejs.molten_steel": "Molten Steel",
+    "item.kubejs.molten_steel_bucket": "Molten Steel Bucket",
+    "fluid.kubejs.mana": "Mana",
+    "item.kubejs.mana_bucket": "Mana Bucket",
+    "fluid.kubejs.dimensional_shard_sap": "Dimensional Shard Sap",
+    "item.kubejs.dimensional_shard_sap_bucket": "Dimensional Shard Sap Bucket",
+    "fluid.kubejs.starlight": "Liquid Starlight",
+    "item.kubejs.starlight_bucket": "Liquid Starlight Bucket",
+    "fluid.kubejs.molten_starmetal": "Molten Starmetal",
+    "item.kubejs.molten_starmetal_bucket": "Molten Starmetal Bucket",
+    "fluid.kubejs.molten_uwuterium": "Molten Uwuterium",
+    "item.kubejs.molten_uwuterium_bucket": "Molten Uwuterium Bucket",
+    "fluid.kubejs.molten_infused_coalium": "Molten Infused Coal",
+    "item.kubejs.molten_infused_coalium_bucket": "Molten Infused Coal Bucket",
+    "fluid.kubejs.stacia_essence": "Essence Of Lambent Light",
+    "item.kubejs.stacia_essence_bucket": "Essence Of Lambent Light Bucket",
+    "fluid.kubejs.solus_essence": "Essence Of Hecate II",
+    "item.kubejs.solus_essence_bucket": "Essence Of Hecate II Bucket",
+    "fluid.kubejs.terraria_essence": "Essence Of Joyeuse",
+    "item.kubejs.terraria_essence_bucket": "Essence Of Joyeuse Bucket",
+    "fluid.kubejs.lunaria_essence": "Essence Of Mothers Rosario",
+    "item.kubejs.lunaria_essence_bucket": "Essence Of Mothers Rosario Bucket",
+    "fluid.kubejs.molten_obsidian": "Molten Obsidian",
+    "item.kubejs.molten_obsidian_bucket": "Molten Obsidian Bucket",
+    "fluid.kubejs.molten_lapis": "Molten Lapis Lazuli",
+    "item.kubejs.molten_lapis_bucket": "Molten Lapis Lazuli Bucket",
+    "fluid.kubejs.molten_quartz": "Molten Quartz",
+    "item.kubejs.molten_quartz_bucket": "Molten Quartz Bucket",
+    "fluid.kubejs.blazing_pyro": "Blazing Pyrotheum",
+    "item.kubejs.blazing_pyro_bucket": "Blazing Pyrotheum Bucket",
+    "fluid.kubejs.molten_enriched_quartz": "Molten Enriched Quartz",
+    "item.kubejs.molten_enriched_quartz_bucket": "Molten Enriched Quartz Bucket",
+    "fluid.kubejs.blazing_cryo": "Gelid Cryotheum",
+    "item.kubejs.blazing_cryo_bucket": "Gelid Cryotheum Bucket",
+    "fluid.kubejs.ender_juice": "Ender Juice",
+    "item.kubejs.ender_juice_bucket": "Ender Juice Bucket",
+    "fluid.kubejs.molten_electrum": "Molten Electrum",
+    "item.kubejs.molten_electrum_bucket": "Molten Electrum Bucket",
+
+	"item.kubejs.stone_mechanism": "Stone Mechanism",
+	"item.kubejs.glowing_mechanism": "Glowing Mechanism",
+	"item.kubejs.allay_fertilizer": "Allay Fertilizer",
+	"item.kubejs.madeline_strawberry": "Madeline Strawberry",
+	"item.kubejs.aquamarine": "Aquamarine",
+	"item.kubejs.resonating_gem": "Resonating Gem",
+	"item.kubejs.uwuterium_pearl": "§dUwuterium Pearl",
+	"item.kubejs.bloody_mechanism": "Bloody Mechanism",
+	"item.kubejs.endsteel_bars": "Endsteel Bars",
+	"item.kubejs.darksteel_bars": "Darksteel Bars",
+	"item.kubejs.charged_enriched_iron": "Charged Quartz Enriched Iron",
+	"item.kubejs.blue_slime": "Blue Slime Ball",
+	"item.kubejs.seared_brick": "Seared Bricks",
+	"item.kubejs.devilish_horn": "Devilish Horn",
+	"item.kubejs.blue_plastic": "Blue Plastic Sheet",
+	"item.kubejs.netherrack_piece": "Nether Brick Pieces",
+	"item.kubejs.flint_handle": "Flint Handle",
+	"item.kubejs.raw_arcane": "Raw Arcane",
+
+	"item.kubejs.hdpe_rod_hori": "HDPE Rod (Horizontal)",
+
+
+	"item.kubejs.goldium": "Goldium Crystal",
+	"item.kubejs.infused_goldium": "Infused Goldium Crystal",
+
+	
+	"item.kubejs.basic_capacitor": "Basic Capacitor",
+	"item.kubejs.advanced_capacitor": "Advanced Capacitor",
+	"item.kubejs.ultimate_capacitor": "Ultimate Capacitor",
+
+	
+	"item.kubejs.golden_electron_tube": "Golden Electron Tube",
+	"item.kubejs.aquamarine_electron_tube": "Aquamarine Electron Tube",
+
+	"item.kubejs.enriched_aquamarine": "Enriched Aquamarine",
+
+	
+	"item.kubejs.plate_endsteel": "Endsteel Plate",
+	"item.kubejs.plate_darksteel": "Darksteel Plate",
+	"item.kubejs.plate_diamond": "Diamond Plate",
+	"item.kubejs.plate_emerald": "Emerald Plate",
+	"item.kubejs.plate_lapis": "Lapis Plate",
+	"item.kubejs.plate_quartz": "Quartz Plate",
+	"item.kubejs.osmium_plate": "Osmium Plate",
+	"item.kubejs.dense_lead_plate": "Dense Lead Plate",
+	"item.kubejs.dense_iron_plate": "Dense Iron Plate",
+
+	
+	"item.kubejs.stone_nugget": "Stone Nugget",
+	"item.kubejs.endsteel_nugget": "Endsteel Nugget",
+	"item.kubejs.darksteel_nugget": "Darksteel Nugget",
+	"item.kubejs.pigiron_nugget": "Pig Iron Nugget",
+	"item.kubejs.soulsteel_nugget": "Soulsteel Nugget",
+	"item.kubejs.hepatizon_nugget": "Hepatizon Nugget",
+	"item.kubejs.slimesteel_nugget": "Slimesteel Nugget",
+	"item.kubejs.nugget_lapis": "Lapis Nugget",
+	"item.kubejs.nugget_quartz": "Quartz Nugget",
+	"item.kubejs.uwuterium_nugget": "§dUwuterium Nugget",
+
+
+	
+	"item.kubejs.lp_steel": "Steel Large Plate",
+	"item.kubejs.lp_copper": "Copper Large Plate",
+	"item.kubejs.lp_aquamarine": "Aquamarine Large Plate",
+	"item.kubejs.lp_redstone": "Redstone Large Plate",
+	"item.kubejs.lp_silver": "Silver Large Plate",
+	"item.kubejs.lp_tin": "Tin Large Plate",
+	"item.kubejs.lp_electrum": "Electrum Large Plate",
+	"item.kubejs.lp_refined_glowstone": "Refined Glowstone Large Plate",
+	"item.kubejs.lp_iron": "Iron Large Plate",
+	"item.kubejs.large_plate_cast": "Large Plate Cast",
+
+	
+	"item.kubejs.de_draconic_core": "Draconic Core",
+	"item.kubejs.de_wyvern_core": "Wyvern Core",
+	"item.kubejs.de_awakened_core": "Awakened Core",
+
+	
+	"item.kubejs.in_rf_coil": "Incomplete Redstone Flux Coil",
+	"item.kubejs.in_bloody_mechanism": "Incomplete Bloody Mechanism",
+	"item.kubejs.in_creative_blaze_cake": "Incomplete Creative Blaze Cake",
+	"item.kubejs.in_starmetal_ingot": "Incomplete Starmetal Ingot",
+	"item.kubejs.in_enriched_iron": "Incomplete Quartz Enriched Iron",
+	
+	
+	"item.kubejs.manasteel_processor": "Manasteel Processor",
+	"item.kubejs.terrasteel_processor": "Terrasteel Processor",
+	"item.kubejs.elementium_processor": "Elementium Processor",
+	"item.kubejs.uwuterium_processor": "§dUwuterium Processor",
+
+	"item.kubejs.raw_manasteel_processor": "Raw Manasteel Processor",
+	"item.kubejs.raw_terrasteel_processor": "Raw Terrasteel Processor",
+	"item.kubejs.raw_elementium_processor": "Raw Elementium Processor",
+	"item.kubejs.raw_uwuterium_processor": "§dRaw Uwuterium Processor",
+
+
+
+	
+	"item.kubejs.slate_1": "Basic Slate",
+	"item.kubejs.slate_2": "Reinforced Slate",
+	"item.kubejs.slate_3": "Ultimate Slate",
+	"item.kubejs.slate_fluix": "Fluix Slate",
+	"item.kubejs.slate_uwuterium": "§dUwuterium Slate",
+
+	
+	"item.kubejs.diamond_dust_pile": "Diamond Dust Pile",
+	"item.kubejs.emerald_dust_pile": "Emerald Dust Pile",
+	"item.kubejs.gold_dust_pile": "Gold Dust Pile",
+	
+	"item.kubejs.draconium_dust": "§5Draconium Dust",
+	"item.kubejs.stardust": "Stardust",
+
+	
+	"item.kubejs.diamond_rod": "Diamond Rod",
+	"item.kubejs.emerald_rod": "Emerald Rod",
+	"item.kubejs.antimatter_rod": "Antimatter Rod",
+
+	
+	"item.kubejs.osmium_gear": "Osmium Gear",
+	"item.kubejs.endsteel_gear": "Endsteel Gear",
+	"item.kubejs.darksteel_gear": "Darksteel Gear",
+
+	
+	"item.kubejs.osgloglas_ingot": "Osgloglas Ingot",
+	"item.kubejs.awakened_draconium_ingot": "§6Awakened Draconium Ingot",
+	"item.kubejs.draconium_ingot": "§5Draconium Ingot",
+	"item.kubejs.stacium_ingot": "Goddess of Creation: Stacia Ingot",
+	"item.kubejs.solus_ingot": "Goddess of Sun: Solus Ingot",
+	"item.kubejs.terrarium_ingot": "Goddess of Earth: Terraria Ingot",
+	"item.kubejs.lunaria_ingot": "Goddess of Darkness: Lunaria Ingot",
+	"item.kubejs.starmetal_ingot": "Starmetal Ingot",
+	"item.kubejs.osmiridium_ingot": "Osmiridium Ingot",
+	"item.kubejs.endsteel_ingot": "Endsteel Ingot",
+	"item.kubejs.darksteel_ingot": "Darksteel Ingot",
+	"item.kubejs.iron_aluminum_ingot": "Iron - Aluminum Alloy Ingot",
+	"item.kubejs.uwuterium_ingot": "§dUwuterium Ingot",
+	"item.kubejs.pigiron_ingot": "Pig Iron Ingot",
+	"item.kubejs.soulsteel_ingot": "Soulsteel Ingot",
+	"item.kubejs.hepatizon_ingot": "Hepatizon Ingot",
+	"item.kubejs.slimesteel_ingot": "Slimesteel Ingot",
+	"item.kubejs.single_use_ingot_cast": "Ingot Cast - Single Use",
+
+	
+	"item.kubejs.catal_ender": "Ender Catalyst",
+	"item.kubejs.catal_glowstone": "Glowstone Catalyst",
+	"item.kubejs.catal_blood": "Blood Catalyst",
+
+	
+	"item.kubejs.chipset_emerald": "Emerald Chipset",
+	"item.kubejs.chipset_iron": "Iron Chipset",
+	"item.kubejs.chipset_diamond": "Diamond Chipset",
+	"item.kubejs.chipset_gold": "Gold Chipset",
+	"item.kubejs.chipset_quartz": "Quartz Chipset",
+	"item.kubejs.chipset_redstone": "Redstone Chipset",
+	
+	
+	"item.kubejs.aerotheum_dust": "Aerotheum Dust",
+	"item.kubejs.pyrotheum_dust": "Pyrotheum Dust",
+	"item.kubejs.cryotheum_dust": "Cryotheum Dust",
+	"item.kubejs.petrotheum_dust": "Petrotheum Dust",
+
+
+	
+	"item.kubejs.alu": "Arithmetic Logic Unit",
+	"item.kubejs.angelupgrade": "Angel Upgrade",
+	"item.kubejs.apu1": "Accelerated Processing Unit",
+	"item.kubejs.apu2": "Accelerated Processing Unit Tier 2",
+	"item.kubejs.card": "Card Base",
+	"item.kubejs.chamelium": "Chamelium",
+	"item.kubejs.chip1": "Microchip Tier 1",
+	"item.kubejs.chip2": "Microchip Tier 2",
+	"item.kubejs.chip3": "Microchip Tier 3",
+	"item.kubejs.componentbus1": "Component Bus Tier 1",
+	"item.kubejs.componentbus2": "Component Bus Tier 2",
+	"item.kubejs.componentbus3": "Component Bus Tier 3",
+	"item.kubejs.craftingupgrade": "Crafting Upgrade",
+	"item.kubejs.cu": "Control Unit",
+	"item.kubejs.datacard1": "Data Card Tier 1",
+	"item.kubejs.datacard2": "Data Card Tier 2",
+	"item.kubejs.datacard3": "Data Card Tier 3",
+	"item.kubejs.diskdrivemountable": "Disk Drive",
+	"item.kubejs.dronecase1": "Drone Case Tier 1",
+	"item.kubejs.dronecase2": "Drone Case Tier 2",
+	"item.kubejs.graphicscard1": "Graphics Card Tier 1",
+	"item.kubejs.graphicscard2": "Graphics Card Tier 2",
+	"item.kubejs.graphicscard3": "Graphics Card Tier 3",
+	"item.kubejs.hdd1": "Hard Disk Drive Tier 1",
+	"item.kubejs.hdd2": "Hard Disk Drive Tier 2",
+	"item.kubejs.hdd3": "Hard Disk Drive Tier 3",
+	"item.kubejs.printedcircuitboard": "Printed Circuit Board",
+	"item.kubejs.ram1": "Memory Tier 1",
+	"item.kubejs.ram2": "Memory Tier 2",
+	"item.kubejs.ram3": "Memory Tier 3",
+	"item.kubejs.server1": "Server Tier 1",
+	"item.kubejs.server2": "Server Tier 2",
+	"item.kubejs.server3": "Server Tier 3",
+	"item.kubejs.wlancard1": "Wireless Network Card Tier 1",
+	"item.kubejs.wlancard2": "Wireless Network Card Tier 2",
+	
+	"item.kubejs.unit_empty": "Empty Elevation Unit",
+	"item.kubejs.unit_glowstone": "Energized Glowstone Unit",
+	"item.kubejs.unit_cryotheum": "Cryotheum Elevation Unit",
+
+
+	"item.kubejs.illumination_powder": "Illumination Powder",
+
+
+    "item.kubejs.tier2_crafting_seed": "Tier 2 Crafting Seed",
+    "item.kubejs.tier3_crafting_seed": "Tier 3 Crafting Seed",
+    "item.kubejs.tier4_crafting_seed": "Tier 4 Crafting Seed",
+    "item.kubejs.tier5_crafting_seed": "Tier 5 Crafting Seed",
+    "item.kubejs.tier6_crafting_seed": "Tier 6 Crafting Seed"
+}
