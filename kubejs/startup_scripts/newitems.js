@@ -261,79 +261,79 @@ StartupEvents.registry('block', event => {
 
 StartupEvents.registry('fluid', e => {
 
-    e.create('molten_steel').displayName('Molten Steel')
+    e.create('molten_steel')
 	.thickTexture(0xFFFFFF).bucketColor(0x3d3d3d)
 	.flowingTexture('kubejs:item/molten_steel').stillTexture('kubejs:item/molten_steel')
 
-	e.create('mana').displayName('Mana')
+	e.create('mana')
 	.thickTexture(0x37fcf7).bucketColor(0x37fcf7)
 	.flowingTexture('minecraft:block/water_flow').stillTexture('minecraft:block/water_still')
 
-	e.create('dimensional_shard_sap').displayName('Dimensional Shard Sap')
+	e.create('dimensional_shard_sap')
 	.thickTexture(0x7cc4c2).bucketColor(0x7cc4c2)
 	.flowingTexture('minecraft:block/water_flow').stillTexture('minecraft:block/water_still')
 
-	e.create('starlight').displayName('Liquid Starlight')
+	e.create('starlight')
 	.thickTexture(0xd8d7d7).bucketColor(0xd8d7d7)
 	.flowingTexture('kubejs:item/liquid_starlight_still').stillTexture('kubejs:item/liquid_starlight_still')
 
-	e.create('molten_starmetal').displayName('Molten Starmetal')
+	e.create('molten_starmetal')
 	.thickTexture(0x002c8f).bucketColor(0x002c8f)
 	.flowingTexture('kubejs:item/molten_starmetal').stillTexture('kubejs:item/molten_starmetal')
 
-	e.create('molten_uwuterium').displayName('Molten Uwuterium')
+	e.create('molten_uwuterium')
 	.thickTexture(0xff66b2).bucketColor(0xff66b2)
 	.flowingTexture('kubejs:item/lava_flow').stillTexture('kubejs:item/lava_still')
 
-	e.create('molten_infused_coalium').displayName('Molten Infused Coal')
+	e.create('molten_infused_coalium')
 	.thickTexture(0x040e0e).bucketColor(0x040e0e)
 	.flowingTexture('kubejs:item/lava_flow').stillTexture('kubejs:item/lava_still')
 
-	e.create('stacia_essence').displayName('Essence Of Lambent Light')
+	e.create('stacia_essence')
 	.thickTexture(0x0ee0cea).bucketColor(0xee0cea)
 	.flowingTexture('kubejs:item/lava_flow').stillTexture('kubejs:item/lava_still')
 
-	e.create('solus_essence').displayName('Essence Of Hecate II')
+	e.create('solus_essence')
 	.thickTexture(0x13eaee).bucketColor(0x13eaee)
 	.flowingTexture('kubejs:item/lava_flow').stillTexture('kubejs:item/lava_still')
 
-	e.create('terraria_essence').displayName('Essence Of Joyeuse')
+	e.create('terraria_essence')
 	.thickTexture(0x0ced1b).bucketColor(0x0ced1b)
 	.flowingTexture('kubejs:item/lava_flow').stillTexture('kubejs:item/lava_still')
 
-	e.create('lunaria_essence').displayName('Essence Of Mothers Rosario')
+	e.create('lunaria_essence')
 	.thickTexture(0x561bf1).bucketColor(0x561bf1)
 	.flowingTexture('kubejs:item/lava_flow').stillTexture('kubejs:item/lava_still')
 
-	e.create('molten_obsidian').displayName('Molten Obsidian')
+	e.create('molten_obsidian')
 	.thickTexture(0x38254d).bucketColor(0x38254d)
 	.flowingTexture('kubejs:item/lava_flow').stillTexture('kubejs:item/lava_still')
 
-	e.create('molten_lapis').displayName('Molten Lapis Lazuli')
+	e.create('molten_lapis')
 	.thickTexture(0x1c52a6).bucketColor(0x1c52a6)
 	.flowingTexture('kubejs:item/lava_flow').stillTexture('kubejs:item/lava_still')
 
-	e.create('molten_quartz').displayName('Molten Quartz')
+	e.create('molten_quartz')
 	.thickTexture(0x1c52a6).bucketColor(0x1c52a6)
 	.flowingTexture('kubejs:item/lava_flow').stillTexture('kubejs:item/lava_still')
 
-	e.create('blazing_pyro').displayName('Blazing Pyrotheum')
+	e.create('blazing_pyro')
 	.bucketColor(0xffc325)
 	.flowingTexture('kubejs:block/fluids/pyrotheum_flow').stillTexture('kubejs:block/fluids/pyrotheum_still')
 
-	e.create('molten_enriched_quartz').displayName('Molten Enriched Quartz')
+	e.create('molten_enriched_quartz')
 	.thickTexture(0xf3f3f4).bucketColor(0xf3f3f4)
 	.flowingTexture('kubejs:item/en_quartz_flow').stillTexture('kubejs:item/en_quartz_still')
 
-	e.create('blazing_cryo').displayName('Gelid Cryotheum')
+	e.create('blazing_cryo')
 	.bucketColor(0x4bf1f5)
 	.flowingTexture('kubejs:item/cryotheum_flow').stillTexture('kubejs:item/cryotheum_still')
 
-	e.create('ender_juice').displayName('Ender Juice')
+	e.create('ender_juice')
 	.thickTexture(0x0a2f56).bucketColor(0x0a2f56)
 	.flowingTexture('kubejs:item/lava_flow').stillTexture('kubejs:item/lava_still')
 
-	e.create('molten_electrum').displayName('Molten Electrum')
+	e.create('molten_electrum')
 	.thickTexture(0xf9d172).bucketColor(0xf9d172)
 	.flowingTexture('kubejs:item/lava_flow').stillTexture('kubejs:item/lava_still')
 })
