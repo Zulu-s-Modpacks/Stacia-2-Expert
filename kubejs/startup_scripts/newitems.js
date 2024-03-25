@@ -227,35 +227,35 @@ StartupEvents.registry('block', event => {
     .tagBlock("minecraft:wither_immune") // no wither breaky
     .tagBlock("minecraft:dragon_immune") // no dragon breaky
 
-	event.create('arcane_ore').soundType('stone').hardness(2.0).displayName('Arcane Ore').tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool')
-	event.create('magical_casing').soundType('stone').hardness(2.0).displayName('Ancient Stone Bricks').tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool')
-	event.create('glimmering_livingrock').soundType('stone').hardness(2.0).displayName('Glimmering Livingrock').tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool')
-	event.create('aquamarine_block').soundType('stone').hardness(2.0).displayName('Block of Aquamarine').tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool')
-	event.create('machine_frame_simple').soundType('stone').hardness(2.0).displayName('Endsteel Machine Frame').tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool')
+	event.create('arcane_ore').soundType('stone').hardness(2.0).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool')
+	event.create('magical_casing').soundType('stone').hardness(2.0).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool')
+	event.create('glimmering_livingrock').soundType('stone').hardness(2.0).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool')
+	event.create('aquamarine_block').soundType('stone').hardness(2.0).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool')
+	event.create('machine_frame_simple').soundType('stone').hardness(2.0).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool')
 
-	event.create('draconium_block').displayName('§5Draconium Block').tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool')
-	event.create('charged_draconium_block').displayName('§5Charged Draconium Block').tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool')
-	event.create('awakened_draconium_block').displayName('§6Awakened Draconium Block').tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool')
+	event.create('draconium_block').tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool')
+	event.create('charged_draconium_block').tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool')
+	event.create('awakened_draconium_block').tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool')
 
-	event.create('goldium_block').displayName('Block of Goldium Crystal').tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool')
-	event.create('infused_goldium_block').displayName('Block of Infused Goldium Crystal').tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool')
+	event.create('goldium_block').tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool')
+	event.create('infused_goldium_block').tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool')
 
-	event.create('grout').displayName('Grout').tagBlock("mineable/shovel").tagBlock('minecraft:needs_stone_tool')
+	event.create('grout').tagBlock("mineable/shovel").tagBlock('minecraft:needs_stone_tool')
 
-	event.create('slimesteel_block').displayName('Block of Slimesteel').tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool')
-	event.create('pigiron_block').displayName('Block of Pig Iron').tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool')
-	event.create('soulsteel_block').displayName('Block of Soulsteel').tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool')
-	event.create('hepatizon_block').displayName('Block of Hepatizon').tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool')
+	event.create('slimesteel_block').tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool')
+	event.create('pigiron_block').tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool')
+	event.create('soulsteel_block').tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool')
+	event.create('hepatizon_block').tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool')
 
-	event.create('starmetal_ore').soundType('stone').hardness(2.0).displayName('Starmetal Ore').tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool')
-	event.create('mana_sand').displayName('Aquamarine Shale').soundType('sand').tagBlock("mineable/shovel").tagBlock('minecraft:needs_stone_tool')
+	event.create('starmetal_ore').soundType('stone').hardness(2.0).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool')
+	event.create('mana_sand').soundType('sand').tagBlock("mineable/shovel").tagBlock('minecraft:needs_stone_tool')
 
 
-	event.create('uwuterium_block').displayName('§dBlock Of Uwuterium').tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_diamond_tool')
-	event.create('osgloglas_block').displayName('Block Of Osgloglas').tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_diamond_tool')
+	event.create('uwuterium_block').tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_diamond_tool')
+	event.create('osgloglas_block').tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_diamond_tool')
 
-	event.create('darksteel_block').displayName('Block Of Darksteel').tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_diamond_tool')
-	event.create('raw_arcane_block').displayName('Block Of Raw Arcane').tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool')
+	event.create('darksteel_block').tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_diamond_tool')
+	event.create('raw_arcane_block').tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool')
 
 })
 
